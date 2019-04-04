@@ -3,6 +3,7 @@ package day05;
 public class d5ex15 {
 
 	public static void main(String[] args) {
+		// d5 버블정렬
 		// 버블정렬 : 단순하고 효율이 가장 안 좋다
 		int [] arr = new int []{1,3,5,7,9,2,4,6,8};
 		// 반복 횟수를 배열의 크기 -1

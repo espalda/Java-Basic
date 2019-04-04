@@ -12,7 +12,7 @@ public class d1ex05 {
 		 * 조건 : 연산자 위치에 따라 동작방식이 다르다
 		 */
 		
-		//조건식 : 참 또는 거짓으로 결과가 나오는 식
+		// 조건식 : 참 또는 거짓으로 결과가 나오는 식
 		System.out.println(1 < 2);
 		System.out.println(1 > 2);
 		System.out.println(1 <= 2);
@@ -20,9 +20,9 @@ public class d1ex05 {
 		System.out.println(1 == 2);
 		System.out.println(1 != 2);
 		
-		//비트논리는 특정 값, 논리는 참 또는 거짓
-		//비트는 연산자 좌,우측에 변수가 나오고 논리는 좌,우에 조건식
-		//7 << 2 00000111 => 00011100
+		// 비트논리는 특정 값, 논리는 참 또는 거짓
+		// 비트는 연산자 좌,우측에 변수가 나오고 논리는 좌,우에 조건식
+		// 7 << 2 00000111 => 00011100
 		int num1 = 7;
 		int num2 = 9;
 		System.out.println(num1 & num2);

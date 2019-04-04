@@ -1,10 +1,13 @@
 package day06;
 
-public class d6ex01 {
+public class d6meth01 {
 
 	public static void main(String[] args) {
 		/* d6 메서드 정의 선언
 		 * 메서드 : 하나의 특정 작업을 수행하는 하도록 작성된 코드
+		 * 재사용이 용이하고
+		 * 코드의 중복을 줄이고
+		 * 프로그램의 구조화
 		 * 기능 : 두 정수의 합을 알려주는 메소드
 		 * 매개변수 : 기능을 실행할 때 필요한 정보, 두 정수 int num1, int num2
 		 * 리턴타입 : 기능이 종료되고 알려주는 정보, 출력과 동작은 다른 의미, 자료형

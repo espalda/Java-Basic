@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class d5ex03 {
 
 	public static void main(String[] args) {
-		/* Do while문
+		/* d5 Do while문
 		 * for,while : 조건식에 따라 한번도 실행되지 않을 수 있다.
 		 * do while : 조건식에 따라 무조건 1번0은 실행 된다
+
 		 * do{
 		 * 		실행문;
 		 * }while(조건식);

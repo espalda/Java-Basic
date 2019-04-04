@@ -1,10 +1,11 @@
 package day08;
 
-public class d8ex06 {
+public class d8over02 {
 
 	public static void main(String[] args) {
 		// d8 메서드 오버로딩
 		printMultiTables ();
+		
 	}
 		public static void printMultiTable (int num){
 			for(int i=1; i<=9; i++){
@@ -25,7 +26,6 @@ public class d8ex06 {
 			}
 	}
 		/* 기능 : 구구단 전체(2단에서 9단)이 출력되는 기능
-		 * 
 		 */
 		public static void printMultiTables (){
 			printMultiTables(2,9);

@@ -1,31 +1,22 @@
 package day03;
 
-public class d3ex10 {
+public class d3star04 {
 
 	public static void main(String[] args) {
-		// *********
-		//  *******
-		//   *****
-		//    ***
-		//     *
-
-		/* i가 5이면 공백이 0이고 별이 9개
-		 * i가 4이면 공백이 1이고 별이 7개
-		 * i가 3이면 공백이 2이고 별이 5개
-		 * i가 2이면 공백이 3이고 별이 3개
-		 * i가 1이면 공백이 4이고 별이 1개
-		 * 
-		 * 공=i-1 *=2*(5+1-i)-1
-		 * 별의 갯수 =2*(6-i)-1
-		 * 별의 갯수 = num-i	
+		/* d3 별찍기 역피라미드
+		*********	i=5 공=0 *=9	5=>6-1
+		 *******	i=4 공=1 *=7 4
+		  *****		i=3 공=2 *=5 3
+		   ***		i=2 공=3 *=3 2
+		    *		i=1 공=4 *=1 1
+					       공=num-i *=2*i-1
 		 */
 
+		// for(i=num; i>=1 ; i--)
+		// for(j=1 ; j<=num-i ; j++)
+		// for(j=1 ; j<=2*i-1 ; j++)
 		
-		//for(i=num; i>=1 ; i--)
-		//for(j=1 ; j<=num-i ; j++)
-		//for(j=1 ; j<=2*i-1 ; j++)
-		
-		//방법01
+		//방법1
 		int i, j;
 		for(i=1 ; i<=6 ; i++){
 			for(j=1 ; j<=i-1; j++){
@@ -40,7 +31,7 @@ public class d3ex10 {
 				System.out.println();
 		}
 		
-		//방법02
+		//방법2
 		for(i=1 ; i<=8 ; i++){
 			for(j=1 ; j<=i-1; j++){
 				System.out.print(" ");
@@ -51,7 +42,7 @@ public class d3ex10 {
 				System.out.println();
 		}
 		
-		//방법03
+		//방법3
 		int num = 5;
 		for(i=1; i<=num; i++){
 			for(j=1 ; j<=i-1 ; j++){
@@ -63,7 +54,7 @@ public class d3ex10 {
 			System.out.println();
 		}
 		
-		//방법04
+		//방법4
 		for(i=num; i>=1;i--){
 			for(j=1 ; j<=num-i ; j++){
 				System.out.print(" ");
@@ -74,7 +65,7 @@ public class d3ex10 {
 			System.out.println();
 		}
 		
-		//방법05
+		//방법5
 		for(i=1 ; i<=num ; i++){
 			for(j=1 ; j<=i-1 ; j++){
 				System.out.print(" ");

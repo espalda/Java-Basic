@@ -24,6 +24,14 @@ public class d4ex01 {
 				sum += i*2;
 				}
 			System.out.println("문제03 = " + sum);
+			
+			//방법04 continue 이용방법
+			for(i=1 ; i<=100 ; i++){
+				if(i % 2 == 1){
+					continue;
+				}
+				System.out.println(i);
+			}
 				
 
 	}

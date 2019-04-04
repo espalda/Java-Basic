@@ -9,14 +9,14 @@ public class d5arr04 {
 			arr[i] = i;
 		}
 		int search = 5;
-		//배열 : 0 1 2 3 4
-		/*
+
+		/* 배열 : 0 1 2 3 4
 		 * 배열에 있는 모든 값을 확인하여
 		 * 배열의 값과 검색 값이 같으면 find를 true로 변경 후 반복문을 종료
 		 * 없으면 계속 진행
-		 * 
-		 * */
-		//변수 search의 값이 배열 arr에 있는지 없는지 나타내는 변수
+		 * 변수 search의 값이 배열 arr에 있는지 없는지 나타내는 변수
+		 */
+		
 		boolean find = false;
 		for(int j=0; j<arr.length; j++){
 			if(arr[j] == search){

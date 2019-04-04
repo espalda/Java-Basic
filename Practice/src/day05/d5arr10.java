@@ -1,9 +1,10 @@
 package day05;
 
-public class d5ex10 {
+public class d5arr10 {
 
 	public static void main(String[] args) {
-		/* a~z, A~Z, 0~9로 조합된 8자리의 임시 비밀번호 발급 예제
+		/* d5 임시 비밀번호 발급 예제
+		 * a~z, A~Z, 0~9로 조합된 8자리의 임시 비밀번호 발급 예제
 		 * 0~9 10개
 		 * a~z 26개
 		 * A~Z 26개

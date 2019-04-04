@@ -8,16 +8,16 @@ public class d1ex03 {
 		 * 명시적 형변환 : 데이터 손실이 발생할수도 있다
 		 */
 		
-		//문제01 10을 3으로 나눈 결과 출력 문제
-		//- 방법01
+		// 10을 3으로 나눈 결과 출력 문제
+		// 01
  		int num = 10;
  		int num0 = 3;
  		System.out.println((double) num / num0);
 
-		//- 방법02
+		// 02
 		System.out.println((double) 10 / 3);
 		
-		//- 방법03
+		// 03
 		double res;
 		res = num / (double) num0;
 		System.out.println(res);

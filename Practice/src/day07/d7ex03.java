@@ -4,13 +4,11 @@ public class d7ex03 {
 
 	public static void main(String[] args) {
 		//d7 메서드 구구단 출력
-		
 		//table();
 		//printMul(2,6);
 		printDan(2);
 		//printAll(2,9);
 	}
-
 		public static void table (){
 			for(int num=2; num<=9; num++){
 				for(int i=1; i<=9; i++){
@@ -19,8 +17,6 @@ public class d7ex03 {
 				}
 				System.out.println();
 			}
-		
-		
 	}
 		/* 기능 : 두 정수가 주어지면 두 정수의 곱을 출력하고 그 결과를 알려주는 메서드
 		 * 매개변수 : 두 정수 int num1, int num2
@@ -31,7 +27,6 @@ public class d7ex03 {
 			System.out.println(num1+ "x"+ num2+ "="+ num1*num2);
 			return num1*num2;
 		}
-	
 	
 		/* 
 		 * 기능 : 두 정수가 주어지면 해당하는 단을 출력하는 메서드
@@ -44,7 +39,6 @@ public class d7ex03 {
 			for(int i=2; i<=9; i++){
 				printMul(num,i);
 			}
-			
 		}
 		
 		/* 기능 : 두 정수가 주어지면 두 정수의 곱을 출력하는 메서드
@@ -61,7 +55,5 @@ public class d7ex03 {
 		}
 	
 				
-		
-		
-		
+
 }

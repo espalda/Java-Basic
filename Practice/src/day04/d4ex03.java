@@ -56,7 +56,7 @@ public class d4ex03 {
 			System.out.println((double)num1 / num2);
 		}
 		else{
-			System.out.println(":-q 몰라요");
+			System.out.println("출력할수없습니다");
 		}*/
 		scan.close();
 

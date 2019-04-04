@@ -18,7 +18,7 @@ public class d8class01 {
 		 * - 접근제한자 : public
 		 * 클래스에 public을 붙일수 있는 경우는 단 하나
 		 * 클래스명과 파일명이 일치하는 경우에만 public 가능
-		 *
+		 * 
 		 * - 접근제한자 : default
 		 * default 라고 적혀있는 것이 아니라
 		 * 클래스나 메서드에 접근제한자를 명시하지 않은 경우를 default 라고 명칭 

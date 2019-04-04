@@ -3,7 +3,7 @@ package day05;
 public class d5ex07 {
 
 	public static void main(String[] args) {
-		/* 변수의 유효범위
+		/* d5 변수의 유효범위
 		 * 일반 변수는 선언되면 해당 변수를 감싸고 있는 괄호안에서 유효하다
 		 * i를 반복문에서만 사용할 경우
 		 */

@@ -1,12 +1,9 @@
 package day06;
 
-public class d6ex04 {
+public class d6meth04 {
 
 	public static void main(String[] args) {
-		/* 재사용이 용이하고
-		 * 코드의 중복을 줄이고
-		 * 프로그램의 구조화
-		 */
+		
 		int num1=7, num2=3;
 		if(isCoPrime(num1, num2)){
 			System.out.println("두 수는 서로소");
@@ -31,7 +28,7 @@ public class d6ex04 {
 		 */
 		public static boolean isCoPrime(int num1, int num2){
 			if(gcd(num1, num2) == 1)
-				return true;//실행문이 한줄이면 중괄호 생략 가능
+				return true; // 실행문이 한줄이면 중괄호 생략 가능
 			else
 				return false;
 			

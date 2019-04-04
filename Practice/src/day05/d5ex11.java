@@ -3,6 +3,7 @@ package day05;
 public class d5ex11 {
 
 	public static void main(String[] args) {
+		// d5 유니코드 값
 		// abcd...z
 		int numA = 'a';
 		int numB = 'b';

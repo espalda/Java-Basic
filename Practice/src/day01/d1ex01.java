@@ -27,7 +27,7 @@ public class d1ex01 {
 		char ch = 'A';
 		long num2 = 123l;
 		float num3 = 1.123f;
-		//foat 의 초기값에 f는 필수
+		// foat에 f가 필수
 		double num4 = 1.1234d;
 		
 		System.out.println(num);
