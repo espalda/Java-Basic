@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class d1ex04 {
 
 	public static void main(String[] args) {
-		/* 화면에서 입력받기
+		/* d1 화면에서 입력받기
 		 * Scanner scan = new Scanner(system.in);
 		 * 자료형 변수명 = scan.next자료형();
 		 * scan.close();
@@ -33,5 +33,6 @@ public class d1ex04 {
 			System.out.println(num1 % num2);
 		scan.close();
 	}
+	
 
 }
