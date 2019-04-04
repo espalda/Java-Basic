@@ -3,7 +3,7 @@ package day01;
 public class d1ex02 {
 
 	public static void main(String[] args) {
-		/* 규칙
+		/* d2 변수 명명규칙
 		 * 대소문자 구별
 		 * 숫자로 시작 불가
 		 * 공백 불가
