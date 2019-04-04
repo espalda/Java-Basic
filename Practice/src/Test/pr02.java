@@ -19,9 +19,9 @@ public class pr02 {
 			
 		}
 		
-		//public static void sum (int num1, int num2){
+		public static void sum1 (int num1, int num2){
 
-		//}
+		}
 	
 
 }
