@@ -3,33 +3,23 @@ package day01;
 public class d1ex06 {
 
 	public static void main(String[] args) {
-		/* 연산자의 종류
-		 * 산술 : + - * / %, /과 %는 0으로 나눌수 없다
-		 * 비교 : 크기비교, 조건식 (== 와 = 는 다름)
-		 * 논리 : && ~하고, || ~하거나, !아니다 진리표, 조건식
-		 * 대입 : = 을 기준으로 좌측에 변수명 1개만 와야한다
-		 * 증감 : 하나씩 증가 ++, 하나씩 감소--
-		 * 조건 : 연산자 위치에 따라 동작방식이 다르다
-		 */
+		// d1 문자열
+		// String 문자열을 저장 할수있는 클래스
+		// 클래스는 앞문자가 대문자
+		String name = "JA" + "VA";
+		String str = name + 8.0;
 		
-		//조건식 : 참 또는 거짓으로 결과가 나오는 식
-		System.out.println(1 < 2);
-		System.out.println(1 > 2);
-		System.out.println(1 <= 2);
-		System.out.println(1 >= 2);
-		System.out.println(1 == 2);
-		System.out.println(1 != 2);
-		
-		//비트논리는 특정 값, 논리는 참 또는 거짓
-		//비트는 연산자 좌,우측에 변수가 나오고 논리는 좌,우에 조건식
-		//7 << 2 00000111 => 00011100
-		int num1 = 7;
-		int num2 = 9;
-		System.out.println(num1 & num2);
-		
-		
-		
-	
+		System.out.println(name);
+		System.out.println(str);
+		System.out.println(7 + " ");
+		System.out.println(" " + 7);
+		System.out.println(7 + "");
+		System.out.println("" + 7);
+		System.out.println("" + "");
+		System.out.println(7 + 7 + ""); //결과값 14
+		System.out.println("" + 7 + 7); //결과값 77, 앞에 문자열이 있으면 문자열 + 숫자 = 문자
+		System.out.println("" + (7 + 7)); //소괄호 우선
+
 
 	}
 
