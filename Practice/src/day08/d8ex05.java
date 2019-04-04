@@ -3,9 +3,10 @@ package day08;
 public class d8ex05 {
 
 	public static void main(String[] args) {
-		/* d8 메서드 오버로딩의 조건
-		 * 1. 매개변수의 갯수가 다르다
-		 * 2. 매개변수의 갯수가 같지만 자료형이 다르다
+		/* d8 메서드 오버로딩 조건
+		 * 한 클래스안에서 메소드명이 동일한 메서드가 여러개일 경우
+		 * 1. 매개변수의 갯수가 다른 경우
+		 * 2. 매개변수의 갯수가 같지만 자료형이 다른 경우
 		 */
 		System.out.println(sum(1,2));
 		System.out.println(sum(1.2, 1.2));

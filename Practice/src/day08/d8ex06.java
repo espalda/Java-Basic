@@ -3,7 +3,7 @@ package day08;
 public class d8ex06 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// d8 메서드 오버로딩
 		printMultiTables ();
 	}
 		public static void printMultiTable (int num){
