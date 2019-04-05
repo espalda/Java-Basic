@@ -10,7 +10,7 @@ public class d6meth05 {
 		 * 리턴타입 : double
 		 * 메소드명 : calc
 		 */
-			double res = calc(1,2,'+');
+			double res = calc(1,0,'/');
 			System.out.println(res);
 	}
 	

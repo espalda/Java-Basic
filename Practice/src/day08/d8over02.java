@@ -4,10 +4,10 @@ public class d8over02 {
 
 	public static void main(String[] args) {
 		// d8 메서드 오버로딩
-		printMultiTables ();
+		table();
 		
 	}
-		public static void printMultiTable (int num){
+		public static void dan (int num){
 			for(int i=1; i<=9; i++){
 				 System.out.println(num+ "x"+ i+ "="+ num * i);
 			}
@@ -18,17 +18,15 @@ public class d8over02 {
 		 * 리턴타입 : void
 		 * 매서드명 : table
 		 */
-		
-		public static void printMultiTables (int start, int end){
+		public static void table (int start, int end){
 			for(int i=start; i<=end; i++){
-				printMultiTable(i);
+				dan(i);
 				System.out.println();
 			}
 	}
-		/* 기능 : 구구단 전체(2단에서 9단)이 출력되는 기능
-		 */
-		public static void printMultiTables (){
-			printMultiTables(2,9);
+		// 기능 : 구구단 전체(2단에서 9단)이 출력되는 기능
+		public static void table (){
+			table(2,9);
 		}
 		
 

@@ -26,7 +26,6 @@ public class d3ex00 {
 			if(num % i == 0){
 				cnt++; // cnt +=1;//++cnt;//cnt = cnt +1;
 				}
-			
 		}
 		// 반복문 종료 후 약수의 갯수가 2개이면 소수라고 출력
 		if(cnt == 2){
