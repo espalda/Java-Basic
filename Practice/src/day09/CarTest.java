@@ -1,6 +1,6 @@
 package day09;
 
-public class Car0 {
+public class CarTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

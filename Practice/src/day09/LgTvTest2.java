@@ -1,15 +1,15 @@
 package day09;
 
-public class Samsung1 {
+public class LgTvTest2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SamsungTv tv = new SamsungTv();
+		LgTv tv = new LgTv();
 		tv.printVolumn();
-		SamsungTv tv2 = new SamsungTv();
+		LgTv tv2 = new LgTv();
 		tv2.printChannel();
-		SamsungTv tv3 = tv;
-		System.out.println(SamsungTv.BRAND);
+		LgTv tv3 = tv;
+		System.out.println(LgTv.BRAND);
 	}
 	
 	/* 클래스멤버와 객체멤버

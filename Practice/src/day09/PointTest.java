@@ -1,6 +1,6 @@
 package day09;
 
-public class point0 {
+public class PointTest {
 	
 	public static void main(String[] args) {
 	Point p = new Point(1,1);
