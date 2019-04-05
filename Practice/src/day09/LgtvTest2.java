@@ -1,15 +1,15 @@
 package day09;
 
-public class LgTvTest2 {
+public class LgtvTest2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LgTv tv = new LgTv();
+		Lgtv tv = new Lgtv();
 		tv.printVolumn();
-		LgTv tv2 = new LgTv();
+		Lgtv tv2 = new Lgtv();
 		tv2.printChannel();
-		LgTv tv3 = tv;
-		System.out.println(LgTv.BRAND);
+		Lgtv tv3 = tv;
+		System.out.println(Lgtv.BRAND);
 	}
 	
 	/* 클래스멤버와 객체멤버

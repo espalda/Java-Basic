@@ -1,8 +1,8 @@
 package day09;
 
-public class LgTv {
+public class Lgtv {
 	// 같은 패키지내에서는 동일한 클래스명을 가진 클래스가 있으면 안된다
-	// 일반 멤버변수, 객체멤버변수
+	// 일반 멤버변수, 객체 멤버변수
 	private int channel;
 	private int volumn;
 	private final int MAX_CHANNEL = 500;
@@ -60,13 +60,13 @@ public class LgTv {
 		 * 생성자는 객체를 생성할 때에만 호출한다
 		 * 객체멤버변수를 초기화한다
 		 */
-		public LgTv() {
+		public Lgtv() {
 			this(1, 10);
 			//channel = 1;
 			//volumn = 10;
 		}
 		// 기본 생성자가 있어야 생성자 오버로딩으로 설정 가능함
-		public LgTv(int channel, int volumn) {
+		public Lgtv(int channel, int volumn) {
 			setChannel(channel);
 			if(volumn > MAX_VOLUMN)
 				this.volumn = MAX_VOLUMN;
@@ -74,7 +74,7 @@ public class LgTv {
 				this.volumn = volumn;
 		}
 		// 복사 생성자
-		public LgTv(LgTv stv){
+		public Lgtv(Lgtv stv){
 			this(stv.channel, stv.volumn);
 			//channel =stv.channel;
 			//volumn = stv.volumn;
