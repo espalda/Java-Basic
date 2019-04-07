@@ -1,6 +1,6 @@
 package day05;
 
-public class d5arr12 {
+public class d5arr7 {
 
 	public static void main(String[] args) {
 		// d5 배열 선언 주의

@@ -16,7 +16,7 @@ public class d8ex03 {
 		public static int test (){
 			int r = 0;
 			for(int i=1; i<=9; i++){
-				r += i;
+				r = r+i;
 				return r;
 			}
 			return 0;

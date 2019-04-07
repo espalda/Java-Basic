@@ -1,6 +1,6 @@
 package day05;
 
-public class d5arr10 {
+public class d5arr6 {
 
 	public static void main(String[] args) {
 		/* d5 임시 비밀번호 발급 예제

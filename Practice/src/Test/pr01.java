@@ -1,13 +1,49 @@
 package Test;
 
 public class pr01 {
-
-		public static void main(String[] args) {
-			/* 메서드 오버로딩
-			 * 한 클래스 안에서 메소드 명이 동일한 메서드가 여러개일 경우
-			 * 매개 변수의 갯수와 자료형이 달라야 한다
-			 */
+			private int channel;
+			private int volume;
+			private final int MAX_C = 399;
+			private final int MAX_V = 100;
+				
+			public void channalup(){
+				if (channel < MAX_C) channel++;
+			}
+			public void channledown(){
+				if (channel > 1) channel--;
+			}
+			public void setchannel(int ch){
+				if(ch == 0) channel = 1;
+				else if(ch > MAX_C) channel = MAX_C;
+				else channel = ch;
+			}
 			
-		
-		}
+			public void volumeup(){
+				if(volume < MAX_V) volume++;
+			}
+			public void volumedown(){
+				if(volume > 0) volume--;
+			}
+			
+			public void printvolume(){
+				System.out.println("현재 볼륨 : "+ volume);
+			}
+			public void printchannel(){
+				System.out.println("현재 채널 : "+ channel);
+			}
+			
+			//생성자
+			public pr01(){
+				this(88,50);
+			}
+			public pr01(int channel, int volume){
+				setchannel(channel);
+				this. volume = volume;
+			}
+			public pr01(pr01 tv){
+				this(tv.channel, tv.volume);
+			}
+			
+			
+			
 }

@@ -1,6 +1,6 @@
 package day05;
 
-public class d5arr03 {
+public class d5arr3 {
 
 	public static void main(String[] args) {
 		/* 배열은 주로 반복문과 사용

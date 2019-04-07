@@ -1,6 +1,6 @@
 package day05;
 
-public class d5arr01 {
+public class d5arr1 {
 
 	public static void main(String[] args) {
 		/* 배열 : 같은 의미를 가지는 같은 타입의 여러변수를 하나의 묶음으로 다루는 것

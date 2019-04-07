@@ -1,6 +1,6 @@
 package day05;
 
-public class d5arr04 {
+public class d5arr4 {
 
 	public static void main(String[] args) {
 		// 배열 검색
