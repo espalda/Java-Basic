@@ -2,7 +2,7 @@ package day05;
 
 
 
-public class d5arr8 {
+public class d5arr08 {
 
 	public static void main(String[] args) {
 		/* d5 공약수 배열저장

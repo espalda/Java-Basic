@@ -1,6 +1,6 @@
 package day05;
 
-public class d5ex14 {
+public class d5ex06 {
 
 	public static void main(String[] args) {
 		/* d5 향상된  for문

@@ -1,6 +1,6 @@
 package day05;
 
-public class d5arr5 {
+public class d5arr05 {
 
 	public static void main(String[] args) {
 		/* d5 로또 번호 생성기

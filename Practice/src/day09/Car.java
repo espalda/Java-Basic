@@ -1,12 +1,15 @@
 package day09;
 
 public class Car {
+	// d9 클래스 만들기 car
 	private int speed;
 	private boolean power;
 	private char gear;
 	private boolean frontLight;
 	private boolean backLight;
 	private int wiperSpeed;
+	
+	
 	public int getSpeed() {
 		return speed;
 	}
@@ -48,7 +51,7 @@ public class Car {
 	public Car(){
 		this.power = false;
 		this.speed = 0;
-		this.gear = 'p';
+		this.gear = 'P';
 		this.frontLight = false;
 		this.backLight = false;
 		this.wiperSpeed = 0;
@@ -57,20 +60,24 @@ public class Car {
 	public void turnOn(){
 		this.power = true;
 	}
+	
 	public void turnOff(){
 		if(speed == 0)
 			this.power = false;
 	}
+	
 	public void accCar(){
 		if(power && (gear =='D'|| gear=='d')){
 			speed++;
 		}
 	}
+	
 	public void breakCar(){
 		if(power && (gear =='D'|| gear=='d')){
 			speed--;
 		}
 	}
+	
 	public void turnFrontLight(){
 		frontLight = !frontLight;
 	}
@@ -78,27 +85,34 @@ public class Car {
 	public void turnbackLight(){
 		backLight = !backLight;
 	}
+	
+	
 	public void printCar(){
 		System.out.println("-------------------");
-		if(power)System.out.println("시동: ON");
-		else	System.out.println("시동: OFF");
+		if(power)	System.out.println("시동: ON");
+		else		System.out.println("시동: OFF");
 		System.out.println("속도: "+ speed);	
+		
 		switch(gear){
-		case 'P': System.out.println("기어: P");break;
-		case 'D': System.out.println("기어: D");break;
-		case 'R': System.out.println("기어: R");break;
-		case 'N': System.out.println("기어: N");break;
+		case 'P': 	System.out.println("기어: P");break;
+		case 'D': 	System.out.println("기어: D");break;
+		case 'R': 	System.out.println("기어: R");break;
+		case 'N': 	System.out.println("기어: N");break;
 		}
-		if(frontLight) System.out.println("전방등: ON");
+		
+		if(frontLight) 	System.out.println("전방등: ON");
 		else			System.out.println("전방등: OFF");
-		if(backLight) System.out.println("후방등: ON");
+		
+		if(backLight) 	System.out.println("후방등: ON");
 		else			System.out.println("후방등: OFF");
+		
 		switch(wiperSpeed){
-		case 0: System.out.println("와이퍼: 정지");break;
-		case 1: System.out.println("와이퍼: 천천히");break;
-		case 2: System.out.println("와이퍼: 보통");break;
-		case 3: System.out.println("와이퍼: 빠름");break;
+		case 0: 	System.out.println("와이퍼: 정지");break;
+		case 1: 	System.out.println("와이퍼: 천천히");break;
+		case 2: 	System.out.println("와이퍼: 보통");break;
+		case 3: 	System.out.println("와이퍼: 빠름");break;
 		}
+		
 		System.out.println("-------------------");
 	}
 	

@@ -1,6 +1,6 @@
 package day07;
 
-public class d7ex01 {
+public class d7error {
 
 	public static void main(String[] args) {
 		/* d7 에러 발생 코드

@@ -3,22 +3,19 @@ package Test;
 public class pr02 {
 
 	public static void main(String[] args){
-		/* 기능 : 주어진 두 정수가 주어지면 서로소인지 아닌지를 참 또는 거짓으로 알려주는 메소드, 최대공약수가 한개 그것은 1
-		 * 매개변수 : 정수 int num1, int num2
-		 * 리턴타입 : 참 또는 거짓  boolean
-		 * 메소드명 : icp
-		 */
+	/*
+	 * this 같은 클래스의 멤버들 간의 서로 호출이 가능한것 처럼
+	 * 생성자 간에도 서로 호출이 가능하다
+	 * 조건 : 생성자의 이름으로 클래스의 이름 대신 this를 사용한다
+	 * 	반드시 첫줄에서만 호출이 가능하다
+	 * Car(){
+	 * color = "white"
+	 * door = 4;
+	 * gear = 'p'
+	 *  생성자에서 this를 이용시
+	 * Car(){
+	 * this("white",'p',4)
+	 */
 		
-	
-	
 	}
-	public static int gcd (int num1, int num2){
-		 
-		 return 0;
-	
-	 public static boolean icp(int num1, int num2){
-		 
-		 return false;
-	 }
-	
 }

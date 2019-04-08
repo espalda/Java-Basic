@@ -1,6 +1,7 @@
 package day09;
 
 public class Television {
+	// d9 클래스 만들기 television
 	// 같은 패키지내에서는 동일한 클래스명을 가진 클래스가 있으면 안된다
 	// 일반 멤버변수, 객체 멤버변수
 	private int channel;

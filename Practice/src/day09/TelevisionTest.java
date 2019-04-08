@@ -1,9 +1,9 @@
 package day09;
 
-public class Televisiontest {
+public class TelevisionTest {
 
 	public static void main(String[] args) {
-		// d9 생성자
+		// d9 클래스 만들기 television test
 		// 기본 생성자를 이용한 객체 생성 후 초기화
 		Television t1 = new Television();
 		t1.printChannel();

@@ -3,7 +3,7 @@ package day08;
 public class d8ex04 {
 
 	public static void main(String[] args) {
-		/* d8 재귀 호출
+		/* d8 재귀 호출 factorial
 		 * 자기 자신을 호출하는 메서드
 		 * java.lang.StackOverflowError 발생하면 재귀 호출을 의심
 		 */

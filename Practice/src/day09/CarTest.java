@@ -3,7 +3,7 @@ package day09;
 public class CarTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// d9 클래스 만들기 car test
 		Car car = new Car();
 		car.printCar();
 		car.turnOn();

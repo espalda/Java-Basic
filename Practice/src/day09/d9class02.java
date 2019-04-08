@@ -5,9 +5,9 @@ import day08.d8ex04;
 public class d9class02 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// d9 다른 class 가져오기
 		String []s = new String[3];
-		Televisiontest.main(s);
+		TelevisionTest.main(s);
 		
 		int res = d8ex04.factorial(5);
 		System.out.println(res);

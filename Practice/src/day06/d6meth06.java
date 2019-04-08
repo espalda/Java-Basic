@@ -39,7 +39,6 @@ public class d6meth06 {
 		 * 리턴타입 : 정수  int
 		 * 메소드명 : random
 		 */
-	
 		public static int random (int min, int max){
 			if(min>max){
 				int tmp = min;
@@ -55,7 +54,6 @@ public class d6meth06 {
 		 * 리턴타입 : 있는지, 없는지 boolean
 		 * 메서드명 : contain
 		 */
-		
 		public static boolean contain (int arr [], int num, int cnt){
 			if(arr == null){
 				return false;
@@ -94,7 +92,6 @@ public class d6meth06 {
 		 * 리턴타입 : boolean(배열을 채웠는지 못채웠는지 성공여부)
 		 * 메서드명 : creatRandArr
 		 */
-		
 		public static boolean createRandArr (int min, int max, int arr []){
 			if(arr == null){
 				// 배열이 생성되어 있지 않을 때
@@ -124,7 +121,6 @@ public class d6meth06 {
 		 * 리턴타입 : 없다 void
 		 * 메서드명 : printArr
 		 */
-		
 		public static void printArr(int arr []){
 			System.out.print("[ ");
 			for(int tmp:arr){
@@ -139,7 +135,6 @@ public class d6meth06 {
 		 * 리턴타입 : 갯수 int
 		 * 메서드명 : compareArr
 		 */
-		
 		public static int compareArr (int [] arr1, int [] arr2){
 			int cnt = 0; //두 배열의 원소 중 일치하는 갯수
 			int size = 0; //두 배열중 작은 배열의 길이를 저장
@@ -163,7 +158,6 @@ public class d6meth06 {
 		 * 리턴타입 : 등수 int
 		 * 메서드명 : rank
 		 */
-		
 		public static int rank (int [] lotto, int [] auto){
 			int cnt = compareArr(lotto, auto);
 			switch (cnt){
@@ -186,7 +180,7 @@ public class d6meth06 {
 			}
 		}
 		
-		/*메서드07*/
+		// 메서드07
 		public static void printRank (int r){
 			if(r == -1){
 				System.out.println("꽝");

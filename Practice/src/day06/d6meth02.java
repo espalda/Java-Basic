@@ -22,7 +22,6 @@ public class d6meth02 {
 		 * 메소드명 : gcd
 		 * public static 리턴타입 메소드명(매개변수)
 		 */
-		
 		public static int gcd (int num1, int num2){
 			int gcdNum = 1;
 			for(int i=1; i<=num1; i++){
@@ -39,7 +38,6 @@ public class d6meth02 {
 		 * 리턴타입 : 최소공배수 정수 int 
 		 * 메소드명 : lcm
 		 */
-		
 		public static int lcm(int num1, int num2){
 			return num1*num2/gcd(num1,num2);
 			

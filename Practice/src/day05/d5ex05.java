@@ -1,6 +1,6 @@
 package day05;
 
-public class d5ex11 {
+public class d5ex05 {
 
 	public static void main(String[] args) {
 		// d5 유니코드 값
