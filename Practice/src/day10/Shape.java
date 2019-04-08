@@ -1,29 +1,27 @@
 package day10;
 
-import Test.Point;
-
 public class Shape {
+	// d10 부모 클래스
 	protected Point center;
-	//protected 접근제한자와 point라는 클래스
-	//center라는 객체의 멤버변수
-	protected int width;//자료형의 멤버변수
-	protected int height;//자료형의 멤버변수
+	//protected 접근제한자와 point라는 클래스의 center라는 객체의 멤버변수
+	protected int width;	//자료형의 멤버변수
+	protected int height;	//자료형의 멤버변수
 	/* 클래스 멤버변수
 	 * private static int area
-	 * 공유한다, 객체를 생성하지 않는다, 상수와 다른점은
+	 * 내용을 공유한다, 객체를 생성하지 않는다, 상수와 다른점은
 	 * 클래스 멤버변수는 변할수있는 값이다
-	 * final 상수와의 차이점
-	 * final 클래스 멤버변수, 
-	 * final 멤버변수 고정된 값이다
+	 * final 상수와의 차이점은 final 멤버변수는 변하지 않는 고정된 값이다
+	 * final 클래스 멤버변수
 	 */
 	
-	//외부에서 center값을 접근하기 위해서  setter 와  getter 를 설정
-	//public은 get/set 필요 없음
-	//getter, setter 설정
-	public Point getCenter() {//변수확인
+	/* 외부에서 center값을 접근하기 위해서  setter 와  getter 를 설정
+	 * public은 get/set 필요 없음
+	 * getter, setter 설정
+	 */
+	public Point getCenter() {	//변수확인
 		return center;
 	}
-	public void setCenter(Point center) {//변수변경
+	public void setCenter(Point center) {	//변수변경
 		this.center = center;
 	}
 	public int getWidth() {
@@ -48,7 +46,7 @@ public class Shape {
 	}
 	//생성자
 	public Shape(){
-		center = new Point();//객체 생성필수
+		center = new Point();	// 객체 생성필수, 위에 객체 생성을 하지 않은 이유는 아래에 객체 설정을 다시 해줘야 하기 때문에
 	}
 	public Shape(int x, int y, int width, int height){
 		center = new Point(x,y);
