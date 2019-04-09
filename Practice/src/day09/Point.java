@@ -1,8 +1,8 @@
 package day09;
 
 public class Point {
-	// d9 클래스 만들기 point
-	/* 2차원 좌표의 점을 의미하는 point class
+	/* d9 클래스 만들기 point
+	 * 2차원 좌표의 점을 의미하는 point class
 	 * 필요한 멤버변수 : 부품, 요소
 	 * 		x축의 값, y축의값
 

@@ -1,6 +1,6 @@
 package day10;
 
-public class d10ex01 {
+public class d10polymor {
 
 	public static void main(String[] args) {
 		/* d10 매개변수의 다형성

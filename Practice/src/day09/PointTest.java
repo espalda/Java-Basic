@@ -1,7 +1,7 @@
 package day09;
 
 public class PointTest {
-	//d9 클래스 만들기 point test
+	// d9 클래스 만들기 point test
 	public static void main(String[] args) {
 	Point p = new Point(1,1);
 	p.print();
