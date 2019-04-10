@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class d1ex04 {
 
 	public static void main(String[] args) {
-		/* d1 화면에서 입력받기
+		/* d1 스캐너 입력
 		 * Scanner scan = new Scanner(system.in);
 		 * 자료형 변수명 = scan.next자료형();
 		 * scan.close();
@@ -15,10 +15,10 @@ public class d1ex04 {
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
 		
-		//- 방법01
+		//방법01
 		System.out.println(num >=1 && num <=100);
 		
-		//- 방법02
+		//방법02
 		boolean isScore = false;
 		isScore = num >= 1 && num <= 100;
 		System.out.println(isScore);

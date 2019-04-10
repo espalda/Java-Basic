@@ -1,11 +1,11 @@
 package day11;
 
 public interface Draw {
-	// 도형을 그리기 기능 대신 콘솔에 정보를 출력하는 기능으로 대체
+	//도형을 그리기 기능 대신 콘솔에 정보를 출력하는 기능으로 대체
 	void print();//default 앞에 생략, 같은 패키지 내에서 사용 가능, 생략가능
-	// 도형의 크기 재설정
+	//도형의 크기 재설정
 	void resize(double width, double height);
-	// 도형을 이동시키는 기능
+	//도형을 이동시키는 기능
 	void move(int x, int y);
 	
 	default void test(){
