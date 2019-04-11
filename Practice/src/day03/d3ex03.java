@@ -3,7 +3,7 @@ package day03;
 public class d3ex03 {
 
 	public static void main(String[] args) {
-		/* d3 서로소 판별
+		/* d3 반복문 서로소
 		 * 서로소 : 두 수의 최대 공약수가 1인 두 수 사이의 관계
 		 * 3과 7은 서로소 관계
 		 * 4와 6은 서로소가 아님

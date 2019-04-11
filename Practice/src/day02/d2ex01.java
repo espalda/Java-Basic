@@ -8,7 +8,8 @@ public class d2ex01 {
 		 * 조건식 : 비교연산자, 논리연산자, 변수(참거짓 판별이 가능한 boolean)와 메소드
 		 */
 		
-		// boolean isEven = 10% 2 == true
+		boolean isEven = 10 % 2 == 0 ;
+		System.out.println(isEven);
 		
 		// 문제 : if 로만 짝수 홀수 구별
 		int num = 11;

@@ -1,6 +1,6 @@
 package day05;
 
-public class d5ex02 {
+public class d5while {
 
 	public static void main(String[] args) {
 		/* d5 while문

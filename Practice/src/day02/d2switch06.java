@@ -1,6 +1,6 @@
 package day02;
 
-public class d2case06 {
+public class d2switch06 {
 
 	public static void main(String[] args) {
 		// d2 switch 홀짝 구분

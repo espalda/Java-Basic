@@ -2,7 +2,7 @@ package day02;
 
 import java.util.Scanner;
 
-public class d2case07 {
+public class d2switch07 {
 
 	public static void main(String[] args) {
 		/* d2 switch 랜덤 가위바위보

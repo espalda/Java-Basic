@@ -33,10 +33,10 @@ public class Student{
 	public void setName(String name) {
 		/* 멤버변수 name에 매개변수 name을 저장해라
 		 * 우선순위가 멤버변수보다 매개변수 또는 지역변수가 크기 때문에 
-		 * name = name; 의미가 없다. 매개변수 = 매개변수
-		 * 원래는 이렇게 표현 하고 싶어했음 - 멤버변수(파란색) = 매개변수 
+		 * name = name; 의미가 없다 매개변수 = 매개변수
+		 * 원래는 이렇게 표현 하고 싶어했음 - 멤버변수(파란색) = 매개변수(입력값) 
 		 * 매개변수 또는 지역변수의 이름이 멤버 변수와 동일한 경우
-		 * 멤버변수와 매개변수(지역변수)를 구분하기 위해 this.을 붙인다
+		 * 멤버변수와 매개변수(지역변수)를 구분하기 위해 this.을 붙인다 또는 자동완성기능을 사용하려고
 		 * this : 나 현재 클래스
 		 * . : 멤버변수나 멤버메서드를 호출하는 연산자로
 		 * 		클래스나 객체명 다음에 온다
@@ -65,7 +65,7 @@ public class Student{
 		if(math>=0 && math<=100)
 		this.math = math;
 	}
-	/* 생성자 : 객체를 만들때 (new연산자를 호출한 시점) 멤버변수를 원하는 값으로 초기화를 하고 싶을때 생성자를 구현해준다
+	/* 생성자 : 객체를 만들때 (new 연산자를 호출한 시점) 멤버변수를 원하는 값으로 초기화를 하고 싶을때 생성자를 구현해준다
 	 * 생성자를 하나도 구현하지 않으면 기본생성자가 자동으로 만들어진다 public Student(){생략}
 	 * 단, 생성자가 하나라도 구현되어 있으면 기본 생성자는 만들어지지 않는다
 	 * 생성자는 기본생성자가 없으면 구현될수 없다 그래서 기본 생성자를 직접 구현해주어야한다
@@ -96,7 +96,7 @@ public class Student{
 		this.setName(name);
 		this.setGrade(grade);
 		this.setClassnum(classnum);
-		this.setName(name);
+		this.setNum(num);
 		this.setKor(kor);
 		this.setEng(eng);
 		this.setMath(math);

@@ -3,7 +3,8 @@ package day03;
 public class d3ex01 {
 
 	public static void main(String[] args) {
-		/* i가 num 의 약수이면
+		/* d3 반복문 약수
+		 * i가 num 의 약수이면
 		 * 2가 4의 약수이면
 		 * 약수 : num % i == 0
 		 * 최대공약수 : 두수의 공약수중 가장 큰 공약수

@@ -3,7 +3,7 @@ package day06;
 public class d6meth04 {
 
 	public static void main(String[] args) {
-		
+		//d6 메서드 서로소
 		int num1=7, num2=3;
 		if(isCoPrime(num1, num2)){
 			System.out.println("두 수는 서로소");

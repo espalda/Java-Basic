@@ -3,7 +3,7 @@ package day03;
 public class d3ex02 {
 
 	public static void main(String[] args) {
-		/* d3 if문의 break;
+		/* d3 반복문 break;
 		 * break는 if문을 동반하며 break 문을 만나는 순간 반복문을 빠져나감
 		 * continue는 if문을 동반하며 continue문을 만나는 순간 아래코드를 실행하지 않는다, skip과 동일
 		 * if(i%2 ==1){continue = 해당 조건(홀수)을 skip한다}

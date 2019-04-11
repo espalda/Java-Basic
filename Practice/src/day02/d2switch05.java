@@ -2,7 +2,7 @@ package day02;
 
 import java.util.Scanner;
 
-public class d2case05 {
+public class d2switch05 {
 
 	public static void main(String[] args) {
 		/* d2 조건문 switch문

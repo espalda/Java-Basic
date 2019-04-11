@@ -1,20 +1,25 @@
 package day05;
 
-public class d5ex06 {
+public class d5upfor {
 
 	public static void main(String[] args) {
 		/* d5 향상된  for문
-		 * 1. 배열의 모든 값들을 확인, 검색할때
-		 * 2. 배열의 값을 수정할때에는 사용 불가
 		 * for(자료형 변수명 : 배열이름){
 		 *  	실행문;
 		 * }
 		 * 자료형은 배열과 같은 자료형을 써야 한다
+		 * 필수는 배열이나 컬렉션프레임워크일때 사용
+		 * 배열의 값을 확인할때 사용
+		 * (배열의 값을 수정할때는 사용하지 않음)
+		 * 모든 배열을 확인, 단순 출력할때 사용
+		 * 모든 배열을 확인하면서 번지를 확인 할 필요가 없을때
+		 * for(int tmp : arr){
+		 * System.out.println(tmp);
 		 */
 		int [] num = new int[]{1,2,3,4,5};
 		for(int tmp : num){
-			System.out.print(tmp + " ");
-		}
+			System.out.print(tmp + " "); 
+		}	//tmp는 배열안에 있는 변수를 하나씩 꺼내오는 역할
 		System.out.println();
 		
 		boolean find = false;
