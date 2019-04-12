@@ -1,9 +1,11 @@
 package day11;
 
-public class d11ex03 {
+public class d11exception02 {
 
 	public static void main(String[] args) {
-		// d11 예외 처리
+		/* d11 예외 처리 exception
+		 * 예외처리를 함으로써 프로그램이 중단되는것을 막을수 있고, 어디서 중단됬는지 알수있다
+		 */ 
 		try {
 			System.out.println(calc(1,0,'/'));
 		} catch (Exception e) {
@@ -18,7 +20,8 @@ public class d11ex03 {
 		{
 		double res= 0.0;
 		if(op=='/' && num2==0){
-			//throw new Exception("0으로 나눌 수 없습니다."); //new로 예외 객체를 생성하고 try catch로 예외를 처리한다
+			//throw new Exception("0으로 나눌 수 없습니다.");
+			//new로 예외 객체를 생성하고 try catch로 예외를 처리한다
 			Exception e = new Exception("0으로 나눌수 없습니다");
 			throw e;
 		}

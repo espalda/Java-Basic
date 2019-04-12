@@ -1,6 +1,6 @@
 package day05;
 
-public class d5ex01 {
+public class d5break {
 
 	public static void main(String[] args) {
 		// d6 이중반복문과 break
@@ -8,6 +8,7 @@ public class d5ex01 {
 		for(i=1 ; ; i++){
 			if(i>3){
 				break;
+				//조건문if를 감싸는 반복문을 빠져나온다
 			}
 			for(j=1 ; ; j++){
 				if(j>5){

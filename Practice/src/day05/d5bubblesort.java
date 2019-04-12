@@ -1,6 +1,6 @@
 package day05;
 
-public class d5sort {
+public class d5bubblesort {
 
 	public static void main(String[] args) {
 		//d5 버블정렬

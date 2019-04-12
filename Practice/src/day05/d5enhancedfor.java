@@ -1,6 +1,6 @@
 package day05;
 
-public class d5upfor {
+public class d5enhancedfor {
 
 	public static void main(String[] args) {
 		/* d5 향상된  for문
@@ -8,11 +8,10 @@ public class d5upfor {
 		 *  	실행문;
 		 * }
 		 * 자료형은 배열과 같은 자료형을 써야 한다
-		 * 필수는 배열이나 컬렉션프레임워크일때 사용
-		 * 배열의 값을 확인할때 사용
-		 * (배열의 값을 수정할때는 사용하지 않음)
-		 * 모든 배열을 확인, 단순 출력할때 사용
-		 * 모든 배열을 확인하면서 번지를 확인 할 필요가 없을때
+		 * 필수는 배열이나 컬렉션프레임워크 일 때 사용
+		 * 배열의 값을 확인할 때 사용 (배열의 값을 수정할 때는 사용하지 않음)
+		 * 모든 배열을 확인, 단순 출력할 때 사용
+		 * 모든 배열을 확인하면서 번지를 확인 할 필요가 없을 때
 		 * for(int tmp : arr){
 		 * System.out.println(tmp);
 		 */

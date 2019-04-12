@@ -1,9 +1,9 @@
 package day11;
 
-public class d11ex02 {
+public class d11exception01 {
 
 	public static void main(String[] args) {
-		/* d11 예외 상황 
+		/* d11 예외 처리 exception 
 		 * 일반적으로 예외처리가안된 상태에서 예외가 발생하면
 		 * 프로그램이 중단되는데 예외처리를 하면 예외가 발생해도
 		 * 프로그램을 중단하지 않고 다음 코드를 실행할 수 있다
@@ -32,5 +32,11 @@ public class d11ex02 {
 		Shape ss = new Shape();
 		System.out.println(ss);
 	}
+	/* RuntimeException 프로그래머의 실수로 발생하는 예외 종류
+	 * ArithmeticException
+	 * ClassCastException
+	 * NullPointException
+	 * ArrayIndexOutOfBoundsException
+	 */
 	
 }

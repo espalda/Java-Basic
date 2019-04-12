@@ -23,11 +23,9 @@ public class d6meth01 {
 		 * 		구현;
 		 * }
 		 */
-		
 			//sum()메소드가 printSum()메소드 보다 재사용성이 높다
 			System.out.println(sum(1,2));
-			printSum(1,2);
-			
+			printSum(1,2);	
 		}
 		public static int sum(int num1, int num2){
 		 	int res = num1 + num2;
