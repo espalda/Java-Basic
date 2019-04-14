@@ -1,8 +1,9 @@
 package day10;
 
 public class Circle extends Shape {
-	// d10 상속 circle
-	// 도형은 point와 has a 관계
+	/* d10 상속 Circle
+	 * 도형은 point와 has a 관계
+	 */
 	public static void main(String[] args) {
 			
 			Circle c = new Circle(5,5,5);
