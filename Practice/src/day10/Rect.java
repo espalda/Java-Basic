@@ -7,7 +7,8 @@ public class Rect extends Shape {
 		r.print();
 		r.resize(5, 50);
 		r.print();
-		/* 다형성 : 여러가지 형채를 가질수 있는 능력
+		/* d10 상속 Rect
+		 * 다형성 : 여러가지 형채를 가질수 있는 능력
 				  한타입의 참조변수로 여러타입의 객체를 참조할수있다
 		 		  부모타입의 참조변수로 자손타입의 인스턴스를 참조할수 있다
 		 * 부모타입(Shape)의 s1의 참조변수로 자손타입(Rect)의 인스턴스를 참조할수 있다
@@ -36,15 +37,15 @@ public class Rect extends Shape {
 		return area;
 	}
 	
-	// 기본생성자설정
+	//기본생성자설정
 	public Rect(){}
-	// 생성자 오버로딩, 복사생성자
+	//생성자 오버로딩, 복사생성자
 	public Rect(int x, int y, int w, int h){
 		super(x,y,w,h); //부모클래스의 생성자 호출
 		area =  w * h;
 	}
 	
-	// 오버라이딩, 부모클래스의 생성자를 재정의, 변경
+	//오버라이딩, 부모클래스의 생성자를 재정의, 변경
 	@Override 
 	public void print(){
 		super.print();	//부모클래스의 print메서드 호출
