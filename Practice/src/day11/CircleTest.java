@@ -3,6 +3,7 @@ package day11;
 public class CircleTest {
 
 	public static void main(String[] args) {
+		//d11 상속 Circle test
 		try{
 		Shape s = new Shape();
 		Shape.printCount();
