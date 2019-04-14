@@ -3,7 +3,7 @@ package day05;
 public class d5enhancedfor {
 
 	public static void main(String[] args) {
-		/* d5 향상된  for문
+		/* d5 향상된 for문
 		 * for(자료형 변수명 : 배열이름){
 		 *  	실행문;
 		 * }
