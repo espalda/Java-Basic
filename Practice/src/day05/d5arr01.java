@@ -23,9 +23,11 @@ public class d5arr01 {
 		
 		kor[0] = 10; //kor의 0번지에 10을 넣는다
 		System.out.println(kor[0]);
-		System.out.println(kor[9]);//초기값은 0으로 자동 초기화
+		System.out.println(kor[9]);
+		//초기값은 0으로 자동 초기화
 		//System.out.println(kor[10]);
 		//ArrayIndexOutOfBoundsException 잘못된 번지로 접근, 예외발생
+		
 		int i;
 		for(i=0; i<kor.length; i++){//배열 이름.length는 배열의 크기를 알려줌
 			System.out.println(i +"번지 : " + kor[i]);
