@@ -3,7 +3,7 @@ package day14;
 import java.util.Scanner;
 
 public class ComplexityTo {
-		// d14 복소수 메서드
+		//d14 메서드 복소수
 	public static void main(String[] args) {
 		System.out.println(complexityToString(1, 2));
 		System.out.println(complexityToString(1, -2));
