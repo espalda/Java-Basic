@@ -34,7 +34,6 @@ public class d7ex03 {
 		 * 리턴타입 : 없음 void
 		 * 메소드명 : printDan
 		 */
-		
 		public static void printDan(int num){
 			for(int i=2; i<=9; i++){
 				printMul(num,i);
