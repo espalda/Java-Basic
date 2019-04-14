@@ -3,7 +3,7 @@ package day05;
 public class d5arr04 {
 
 	public static void main(String[] args) {
-		// d5 배열 검색
+		//d5 배열 검색
 		int []arr = new int[5];
 		for(int i=0; i<arr.length; i++){
 			arr[i] = i;
