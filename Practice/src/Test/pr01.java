@@ -1,7 +1,7 @@
 package Test;
 
 public class pr01 {
-	//누구나 접근할수 있는 public이라는 접근제한자를 가진 pr01이라는 클래스를 생성
+	
 	public static void main(String[] args){
 		//클래스 메서드 static 리턴타입 void의 메인이라는 메서드 선언부를 작성했다
 		String s = new String("Hello world");

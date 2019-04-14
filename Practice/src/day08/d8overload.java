@@ -1,10 +1,10 @@
 package day08;
 
-public class d8over01 {
+public class d8overload {
 
 	public static void main(String[] args) {
-		/* d8 메서드 오버로딩 조건
-		 * 한 클래스안에서 메소드명이 동일한 메서드가 여러개일 경우
+		/* d8 메서드 오버로딩 overloading
+		 * 한 클래스내에서 같은 이름의 메서드를 여러개 정의하는 것
 		 * 1. 매개변수의 갯수가 달라야 한다
 		 * 2. 매개변수의 갯수가 같지만 자료형이 달라야 한다
 		 */
@@ -38,4 +38,28 @@ public class d8over01 {
 		public static int sum (int num1, int num2, int num3){
 			return num1+num2+num3;
 		}
+		
+		public static void dan (int num){
+			for(int i=1; i<=9; i++){
+				 System.out.println(num+ "x"+ i+ "="+ num * i);
+			}
+		}
+	
+		/* 기능 : 2단에서 9단을 출력하는 기능
+		 * 매개변수 : int start, int end
+		 * 리턴타입 : void
+		 * 매서드명 : table
+		 */
+		public static void table (int start, int end){
+			for(int i=start; i<=end; i++){
+				dan(i);
+				System.out.println();
+			}
+	}
+		// 기능 : 구구단 전체(2단에서 9단)이 출력되는 기능
+		public static void table (){
+			table(2,9);
+		}
+		
+
 }
