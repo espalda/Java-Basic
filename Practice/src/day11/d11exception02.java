@@ -15,6 +15,7 @@ public class d11exception02 {
 			System.out.println("예외처리가 끝나면 무조건 실행되는 곳");
 		}
 	}
+	
 	public static double calc(int num1, int num2, char op)
 		throws Exception //예외선언
 		{

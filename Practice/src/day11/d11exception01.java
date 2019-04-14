@@ -11,12 +11,12 @@ public class d11exception01 {
 		int num1=1, num2=0;
 		int res;
 		int arr[] = new int[10];
-		try{	// 예외 상황이 발생할 수 있는 코드
+		try{	//예외 상황이 발생할 수 있는 코드
 			//arr[10]= 0;
 			res= num1/num2;
 			System.out.println(res);
-			// try문에서 ArithmeticException이 발생하면
-			// 아래 catch 문을 실행하고 다음 코드를 실행해라
+			//try문에서 ArithmeticException이 발생하면
+			//아래 catch 문을 실행하고 다음 코드를 실행해라
 		}catch(ArithmeticException e){
 			System.out.println(e.getMessage());
 			e.printStackTrace();
