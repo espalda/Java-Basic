@@ -28,6 +28,7 @@ public class d7error {
 				System.out.println("계산 도중에 발생한 에러");
 				e.printStackTrace();
 			}
+			
 		/* 에러 내용 : ArrayIndexOutOfBoundsException
 		 * 에러 원인 : 배열에 유효하지 않는 번지로 접근하는 경우
 		 * 해결 방법 : 배열의 유효한 번지로 접근한다
