@@ -11,7 +11,7 @@ public class d8ex04 {
 		System.out.println(factorial(5));
 		
 		}
-		// 잘못된 재귀 메서드
+		//잘못된 재귀 메서드
 		public static void print(){
 			System.out.println("Hello");
 			print();
