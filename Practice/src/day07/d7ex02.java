@@ -15,6 +15,7 @@ public class d7ex02 {
 		 */
 
 	}		
+	
 		/* 기능 : 배열을 num로 초기화 하는 메서드
 		 * 매개변수 : int [] arr, int num
 		 * 리턴타입 : 없음 void
