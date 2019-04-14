@@ -1,7 +1,7 @@
 package day10;
 
 public class d10inheritance extends Shape {
-	/* d10 inheritance
+	/* d10 상속 inheritance
 	 * 상속 : 기존의 클래스를 물려받아 재사용하여 새로운 클래스를 작성
 	 * 부모 : 조상, 상위, 기반 클래스
 	 * 자식 : 자손, 하위, 파생 클래스
