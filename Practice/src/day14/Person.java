@@ -1,6 +1,7 @@
 package day14;
 
 public class Person {
+	//d14 클래스 Person
 	private String name;
 	private int age;
 	private String birth;
