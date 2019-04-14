@@ -4,6 +4,7 @@ public class d3star03 {
 
 	public static void main(String[] args) {
 		/* d3 반복문 별찍기
+		
 		******	i=1 별=6
 		*****	i=2 별=5
 		****	i=3 별=4

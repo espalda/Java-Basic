@@ -3,7 +3,8 @@ package day03;
 public class d3star04 {
 
 	public static void main(String[] args) {
-		/* d3 별찍기 역피라미드
+		/* d3 반복문 별찍기
+		
 		*********	i=5 공=0 *=9	5=>6-1
 		 *******	i=4 공=1 *=7 4
 		  *****		i=3 공=2 *=5 3
@@ -12,9 +13,9 @@ public class d3star04 {
 					       공=num-i *=2*i-1
 		 */
 
-		// for(i=num; i>=1 ; i--)
-		// for(j=1 ; j<=num-i ; j++)
-		// for(j=1 ; j<=2*i-1 ; j++)
+		//for(i=num; i>=1 ; i--)
+		//for(j=1 ; j<=num-i ; j++)
+		//for(j=1 ; j<=2*i-1 ; j++)
 		
 		//방법1
 		int i, j;

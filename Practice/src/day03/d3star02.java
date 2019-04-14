@@ -3,8 +3,8 @@ package day03;
 public class d3star02 {
 
 	public static void main(String[] args) {
-		/* d3 별찍기 피라미드
-			  + 마름모, 마름모 반전
+		/* d3 반복문 별찍기
+		 
 		     * 		i=1 공=5 별=1
 		    *** 	i=2 공=4 별=3
 		   ***** 	i=3 공=3 별=5
