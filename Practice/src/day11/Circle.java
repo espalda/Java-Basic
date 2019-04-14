@@ -1,12 +1,14 @@
 package day11;
 
 public class Circle extends Shape {
+	//d11 상속 Circle
 	private double getRadius(){
 		return getWidth()/2;
 	}
 	public double getArea(){
 		return getRadius()*getRadius()*Math.PI;
 	}
+	
 	@Override
 	public void print(){
 		System.out.println("--------------");
