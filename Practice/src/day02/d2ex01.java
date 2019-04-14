@@ -8,10 +8,10 @@ public class d2ex01 {
 		 * 조건식 : 비교연산자, 논리연산자, 변수(참거짓 판별이 가능한 boolean)와 메소드
 		 */
 		
-		boolean isEven = 10 % 2 == 0 ;
+		boolean isEven = 10 % 2 == 0;
 		System.out.println(isEven);
 		
-		// 문제 : if 로만 짝수 홀수 구별
+		//if를 이용하여 짝수 홀수 구별
 		int num = 11;
 		if (num % 2 == 0){
 			System.out.println("짝수");
@@ -20,17 +20,16 @@ public class d2ex01 {
 			System.out.println("홀수");
 		}
 		
-		// 문제 : if else 이용하여 짝수 홀수 구별
+		//if else를 이용하여 짝수 홀수 구별
 		int num1 = 10;
 		if (num1 % 2 == 0){
 			System.out.println("짝수");
 		}
-		// 위의 모든 조건식이 거짓이면 아래와 같이 출력
-		else{
+		else{	//위의 모든 조건식이 거짓이면 아래와 같이 출력
 			System.out.println("홀수");
 		}
 		
-		// 문제 : 나이가 20 이상이면 성인이라고 출력하고 아니면 청소년 이라고 출력
+		//나이가 20 이상이면 성인이라고 출력하고 아니면 청소년 이라고 출력
 		int num2 = 18;
 		if (num2 >= 20){
 			System.out.println("성인");
