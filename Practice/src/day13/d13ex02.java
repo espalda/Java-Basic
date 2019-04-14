@@ -3,7 +3,7 @@ package day13;
 public class d13ex02 {
 
 	public static void main(String[] args) {
-		// d13 배열 복습
+		//d13 복습 배열
 		//배열의 모든 값을 출력하는 코드를 작성
 		int arr [] = new int [] {1,3,7,5,9,2,4,6,8};
 		for(int i=0; i<arr.length; i++){
