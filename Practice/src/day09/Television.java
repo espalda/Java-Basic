@@ -1,19 +1,20 @@
 package day09;
 
 public class Television {
-	// d9 클래스 만들기 television
-	// 같은 패키지내에서는 동일한 클래스명을 가진 클래스가 있으면 안된다
-	// 일반 멤버변수, 객체 멤버변수
+	/* d9 클래스 Television
+	 * 같은 패키지내에서는 동일한 클래스명을 가진 클래스가 있으면 안된다
+	 * 일반 멤버변수, 객체 멤버변수
+	 */
 	private int channel;
 	private int volume;
 	private final int MAX_CHANNEL = 500;
 	private final int MAX_VOLUME = 100;
 	
-	// 클래스 멤버변수
+	//클래스 멤버변수
 	public static final String BRAND = "LG";
 	
-	// 일반 멤버메서드, 객체 멤버메서드
-	// 설계도
+	//일반 멤버메서드, 객체 멤버메서드
+	//설계도
 	public void channelUP(){
 		if(channel < MAX_CHANNEL)
 			channel++;
@@ -66,7 +67,7 @@ public class Television {
 			//channel = 1;
 			//volume = 10;
 		}
-		// 기본 생성자가 있어야 생성자 오버로딩으로 설정 가능함
+		//기본 생성자가 있어야 생성자 오버로딩으로 설정 가능함
 		public Television(int channel, int volume) {
 			setChannel(channel);
 			if(volume > MAX_VOLUME)
@@ -74,7 +75,7 @@ public class Television {
 			else
 				this.volume = volume;
 		}
-		// 복사 생성자
+		//복사 생성자
 		public Television(Television stv){
 			this(stv.channel, stv.volume);
 			//channel =stv.channel;
