@@ -8,7 +8,7 @@ import day12.StudentManager;
 public class d13ex01 {
 
 	public static void main(String[] args) {
-		// d13 학생관리 콘솔입력
+		//d13 스캐너 Student manager
 		StudentManager mng = new StudentManager();
 		int menu=0;
 		Scanner scan = new Scanner(System.in);
