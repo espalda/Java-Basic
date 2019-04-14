@@ -35,11 +35,4 @@ public class d6meth05 {
  			
  		
 }
- 		 
-	
-		
-		 
-		
-	
-
 
