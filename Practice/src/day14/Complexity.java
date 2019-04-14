@@ -1,7 +1,7 @@
 package day14;
 
 public class Complexity {
-		// d14 복소수 클래스
+		//d14 클래스 복소수
 	public static void main(String[] args) {
 		
 		Complexity c1 = new Complexity(1,2);
