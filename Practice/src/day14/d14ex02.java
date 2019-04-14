@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class d14ex02 {
 
 	public static void main(String[] args) {
-		/* d13 래퍼 클래스 wrapper
+		/* d14 래퍼 클래스 wrapper
 		 * 일반 자료형을 클래스로 만든 클래스
 		 * 매개변수로 객체를 요구할때
 		 * 오토박싱 : 기본자료형 → 래퍼클래스의 객체
@@ -15,6 +15,7 @@ public class d14ex02 {
 		ArrayList<Integer> list;
 		printObj(10);
 	}
+	
 	public static void printObj(Object obj){
 		System.out.println(obj.toString());
 	}
