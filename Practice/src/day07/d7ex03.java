@@ -46,8 +46,7 @@ public class d7ex03 {
 		 * 메소드명 : printA
 		 */	
 		public static void printAll (int start, int end){
-			if(start < 0) return;//강제 종료
-			
+			if(start < 0) return;	//강제 종료
 			for(int i=start; i<=end; i++){
 				printDan(i);
 			}
