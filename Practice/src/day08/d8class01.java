@@ -38,8 +38,6 @@ public class d8class01 {
 		 * 
 		 * - 접근제한자 : protected
 		 * 본인 + 자식(파생)클래스만 접근 가능
-
-		 
 		 */
 		
 	}
