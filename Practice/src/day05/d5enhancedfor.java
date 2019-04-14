@@ -15,6 +15,7 @@ public class d5enhancedfor {
 		 * for(int tmp : arr){
 		 * System.out.println(tmp);
 		 */
+		
 		int [] num = new int[]{1,2,3,4,5};
 		for(int tmp : num){
 			System.out.print(tmp + " "); 
