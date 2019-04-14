@@ -1,7 +1,8 @@
 package day14;
 
 public class UniversityStudent extends Person {
-	/* 부모클래스가 없으면 한 클래스에서 전부 다 입력해야함
+	/* d14 상속 UniversityStudent
+	 * 부모클래스가 없으면 한 클래스에서 전부 다 입력해야함
 	 * 부모클래스를 상속 받은 학생클래서, 교수클래스, 교직원클래스 등등 여러가지 클래스를 편하게 만들수 있다.
 	 * 
 	 */
