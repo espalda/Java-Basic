@@ -1,6 +1,7 @@
 package day10;
 
 public class Point {
+	//d10 클래스 Point
 	//이차원에서 한 점을 나타내는 클래스
 	private int x; //접근제한자가 private 인 맴버변수 int x와
 	private int y; //접근제한자가  private 인 멤버변수 int y
@@ -31,7 +32,6 @@ public class Point {
 	public void move(Point p){
 		move(p.x,p.y);
 	}
-	
 	
 	/* 기본생성자
 	 * move값을 0,0으로 초기화
