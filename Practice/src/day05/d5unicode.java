@@ -18,7 +18,7 @@ public class d5unicode {
 		int num = 100;	//숫자 100은 유니코드 d
 		System.out.println((char)num);
 		
-		//문제
+		
 		//97이 a라는 것을 이용하여 a~z까지 출력하는 예제
 		for(int i=97; i<=97+25; i++){
 			System.out.print((char)i);
