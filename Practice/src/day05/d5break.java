@@ -3,7 +3,7 @@ package day05;
 public class d5break {
 
 	public static void main(String[] args) {
-		// d6 이중반복문과 break
+		//d6 이중반복문 break
 		int i,j;
 		for(i=1 ; ; i++){
 			if(i>3){
