@@ -3,7 +3,7 @@ package day05;
 public class d5arr03 {
 
 	public static void main(String[] args) {
-		/* d5 배열 랜덤 코드 작성
+		/* d5 배열 랜덤
 		 * 배열은 주로 반복문과 사용
 		 * 7개를 저장할수 있는 정수형 배열을 생성하고
 		 * 1번지에는 1...6번지에는 6을 넣는 배열 작성
