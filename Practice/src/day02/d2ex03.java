@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class d2ex03 {
 
 	public static void main(String[] args) {
-		/* d2 학점 출력 조건문
-		 * 문제 : 점수가 주어지면 점수에 맞는 학점을 출력하는 코드
+		/* d2 조건문 if 학점
+		 * 점수가 주어지면 점수에 맞는 학점을 출력하는 코드 작성
 		 * 90점 이상 100점 이하 A
 		 * 80점 이상 90점 미만 B
 		 * 70점 이상 80점 미만 C
@@ -36,8 +36,8 @@ public class d2ex03 {
 			System.out.println("잘못된 점수입니다.");
 		}
 		
-		// it (score < 0 || score > 100) or 연산자 사용
-		// 변수는 항상 좌측에 입력
+		//it (score < 0 || score > 100) or 연산자 사용
+		//변수는 항상 좌측에 입력
 
 		double score1 = scan.nextDouble();
 		if ((int)score1 / 10 == 9 || score1 == 100){
