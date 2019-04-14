@@ -3,8 +3,8 @@ package day10;
 public class Triangle extends Shape {
 	
 	public static void main(String[] args) {
-		// d10 자식클래스 Triangle
-		// Shape 클래스를 상속받아 Triangle 클래스를 만들고 필요한 기능 구현
+		//d10 자식클래스 Triangle
+		//Shape 클래스를 상속받아 Triangle 클래스를 만들고 필요한 기능 구현
 		Triangle t1 = new Triangle();
 		t1.print();
 		Triangle t2 = new Triangle(1,1,3,3);
