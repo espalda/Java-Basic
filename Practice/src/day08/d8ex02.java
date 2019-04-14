@@ -3,7 +3,7 @@ package day08;
 public class d8ex02 {
 
 	public static void main(String[] args) {
-		// d8 메서드 산술연산
+		//d8 메서드 산술연산
 		System.out.println(calc(22,0,'/'));
 	}	
 		/* 기능 : 두정수의 산술 연산 결과를 알려주는 메서드
