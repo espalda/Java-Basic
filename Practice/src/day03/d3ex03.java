@@ -9,6 +9,7 @@ public class d3ex03 {
 		 * 4와 6은 서로소가 아님
 		 * 최대공약수가 1과 같으면 서로소 관계라고 출력하고 아니면 서로소가 아니라고 출력
 		 */
+		
 		int num1=9, num2=7;
 		int i, gcd=1;
 		for (i=1 ; i<=num1 ; i++){
@@ -18,7 +19,7 @@ public class d3ex03 {
 		}
 
 		if(gcd == 1){
-			System.out.println(num1 + "과 " + num2 +" 는 서로소 관계가 아님");
+			System.out.println(num1 + "과 " + num2 +"는 서로소 입니다");
 		}else{
 			System.out.println("서로소가 아니다.");
 		}
