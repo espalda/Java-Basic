@@ -56,7 +56,7 @@ public class d8overload {
 				System.out.println();
 			}
 	}
-		// 기능 : 구구단 전체(2단에서 9단)이 출력되는 기능
+		//기능 : 구구단 전체(2단에서 9단)이 출력되는 기능
 		public static void table (){
 			table(2,9);
 		}
