@@ -3,7 +3,7 @@ package day14;
 public class d14ex01 {
 
 	public static void main(String[] args) {
-		// d14 예외 발생 복습
+		//d14 복습 예외 발생
 		int num = 0;
 		try{
 			num = 1/0;
