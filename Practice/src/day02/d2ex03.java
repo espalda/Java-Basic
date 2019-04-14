@@ -61,6 +61,5 @@ public class d2ex03 {
 		scan.close();
 		
 		
-		
 	}
 }
