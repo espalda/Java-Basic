@@ -3,7 +3,7 @@ package day05;
 public class d5arr07 {
 
 	public static void main(String[] args) {
-		/* d5d5 배열 공약수 배열
+		/* d5 배열 공약수
 		 * 두수의 공약수들을 배열에 저장하여 출력하는 코드 작성
 		 * 최대 10개를 저장 가능
 		 */
