@@ -1,8 +1,8 @@
 package day09;
 
 public class Point {
-	/* d9 클래스 만들기 point
-	 * 2차원 좌표의 점을 의미하는 point class
+	/* d9 클래스 Point
+	 * 2차원 좌표의 점을 의미하는 Point class
 	 * 필요한 멤버변수 : 부품, 요소
 	 * 		x축의 값, y축의값
 
@@ -60,9 +60,11 @@ public class Point {
 			//(1,2)
 			System.out.println("(" + x + ","+ y + ")");
 		}
-		//다른 점과의 거리 계산
-		/*int dx = p.x - x; // x - this.x
-		int dy = p.y - y; // y - thin.y*/
+		
+		/* 다른 점과의 거리 계산
+		 * int dx = p.x - x; // x - this.x
+		 * int dy = p.y - y; // y - thin.y
+		 */
 		public double distance(Point p){
 			return distance(p.x,p.y);
 		}
