@@ -3,7 +3,7 @@ package day06;
 public class d6meth01 {
 
 	public static void main(String[] args) {
-		/* d6 메서드 정의 선언
+		/* d6 메서드
 		 * 메서드 : 하나의 특정 작업을 수행하는 하도록 작성된 코드
 		 * 높은 재사용성
 		 * 중복된 코드의 제거
@@ -17,11 +17,9 @@ public class d6meth01 {
 		 
 		 * 메소드 선언 방법
 		 * 출력 이름(입력){
-		 * 		구현;
-		 * }
+		 * 		구현;}
 		 * 리턴타입 메소드명(매개변수){
-		 * 		구현;
-		 * }
+		 * 		구현;}
 		 */
 			//sum()메소드가 printSum()메소드 보다 재사용성이 높다
 			System.out.println(sum(1,2));
@@ -31,6 +29,7 @@ public class d6meth01 {
 		 	int res = num1 + num2;
 		 	return res;
 		 }
+		
 		/* 기능 : 두 수의 합을 콘솔에 출력하는 기능
 		 * 매개변수 : 두 정수 int num1, num2
 		 * 리턴타입 : 없다 void
