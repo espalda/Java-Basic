@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class d11str02 {
 
 	public static void main(String[] args) {
-		/* d11 string class의 생성자와 메서드
+		/* d11 string class
 		 * 문자열을 입력하세요: 112233
 		 * 교체될 문자열을 입력하세요: 11
 		 * 교체할 문자열을 입력하세요: 00
@@ -31,7 +31,6 @@ public class d11str02 {
 		}else{
 			System.out.println("교체될 문자열이 없습니다");
 		}
-		
 		
 		scan.close();
 

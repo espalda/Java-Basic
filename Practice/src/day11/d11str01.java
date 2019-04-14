@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class d11str01 {
 
 	public static void main(String[] args) {
-		/* d11 string class의 생성자와 메서드
+		/* d11 string class
 		 * 문자열을 입력하세요: Hello world		 
 		 * 찾을 문자열을 입력하세요: He
 		 * Hello world에는 He가 있습니다
@@ -25,7 +25,6 @@ public class d11str01 {
 		
 		scan.close();
 		
-
 	}
 
 }
