@@ -1,6 +1,7 @@
 package day12;
 
 public class Student{
+	//d12 클래스 Student
 	private String name;//name은 String이라는 class의 객체
 	private int grade;
 	private int classnum;
