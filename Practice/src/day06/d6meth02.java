@@ -16,6 +16,7 @@ public class d6meth02 {
 		System.out.println(num1+ "과 "+ num2+ "의 최대공약수 : "+ gcdNum);
 		System.out.println(num1+ "과 "+ num2+ "의 최소공배수 : "+ lcm(num1,num2));
 		}
+	
 		/* 기능 : 두 정수가 주어지면 두 정수의 최대공약수를 알려주는 메서드
 		 * 매개변수 : 두정수 int num1, int num2
 		 * 리턴타입 : 최대공약수 정수 int 
