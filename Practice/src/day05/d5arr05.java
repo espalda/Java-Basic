@@ -3,7 +3,7 @@ package day05;
 public class d5arr05 {
 
 	public static void main(String[] args) {
-		/* d5 d5 배열 로또 번호
+		/* d5 배열 로또 번호
 		 * 로또 번호는 1~45사이의 랜덤한 수가 중복되지 않도록 7개 생성
 		 * 1. 로또 배열을 생성하여 각 번지에 0~6을 순차적으로 저장
 		 * 2. 로또 배열을 생성하여 각 번지에 1~45사이의 랜덤한 수를 저장
