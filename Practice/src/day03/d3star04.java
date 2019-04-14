@@ -19,6 +19,7 @@ public class d3star04 {
 		
 		//방법1
 		int i, j;
+		int num = 5;
 		for(i=1 ; i<=6 ; i++){
 			for(j=1 ; j<=i-1; j++){
 				System.out.print(" ");
@@ -33,7 +34,7 @@ public class d3star04 {
 		}
 		
 		//방법2
-		for(i=1 ; i<=8 ; i++){
+		for(i=1 ; i<=9 ; i++){
 			for(j=1 ; j<=i-1; j++){
 				System.out.print(" ");
 			}
@@ -44,7 +45,6 @@ public class d3star04 {
 		}
 		
 		//방법3
-		int num = 5;
 		for(i=1; i<=num; i++){
 			for(j=1 ; j<=i-1 ; j++){
 				System.out.print(" ");
@@ -65,23 +65,7 @@ public class d3star04 {
 			}
 			System.out.println();
 		}
-		
-		//방법5
-		for(i=1 ; i<=num ; i++){
-			for(j=1 ; j<=i-1 ; j++){
-				System.out.print(" ");
-			}
-			for (j=1 ; j<=2*(num-i)+1 ; j++){
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-		
-		
-		
 
-		
-		
 		
 	}
 
