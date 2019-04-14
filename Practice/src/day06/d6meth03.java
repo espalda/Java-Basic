@@ -33,5 +33,4 @@ public class d6meth03 {
 			
 		}
 		
-
 }
