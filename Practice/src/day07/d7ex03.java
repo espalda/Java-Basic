@@ -3,7 +3,7 @@ package day07;
 public class d7ex03 {
 
 	public static void main(String[] args) {
-		//d7 메서드 구구단 출력
+		//d7 메서드 구구단
 		//table();
 		//printMul(2,6);
 		printDan(2);
