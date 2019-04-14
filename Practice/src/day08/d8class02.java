@@ -3,13 +3,13 @@ package day08;
 public class d8class02 {
 
 	public static void main(String[] args) {
-		// d8 클래스 생성 예쩨
+		//d8 클래스 Television
 		Television t = null;
 		t = new Television();
 	}
 }
 class Television{
-		/* Tv 클래스
+		/* Television 클래스
 		 * t 참조변수 객체
 		 
 		 * 멤버 변수 : 부품, 요소
