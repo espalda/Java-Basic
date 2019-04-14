@@ -1,7 +1,7 @@
 package day09;
 
 public class Car {
-	// d9 클래스 만들기 car
+	//d9 클래스 Car
 	private int speed;
 	private boolean power;
 	private char gear;
