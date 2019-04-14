@@ -3,7 +3,7 @@ package day05;
 public class d5arr06 {
 
 	public static void main(String[] args) {
-		/* d5 임시 비밀번호 발급 예제
+		/* d5 배열 임시 비밀번호
 		 * a~z, A~Z, 0~9로 조합된 8자리의 임시 비밀번호 발급 예제
 		 * 0~9 10개
 		 * a~z 26개
