@@ -1,7 +1,7 @@
 package day10;
 
 public class Shape {
-	// d10 부모 클래스
+	//d10 부모클래스 Shape
 	protected Point center;
 	//protected 접근제한자와 point라는 클래스의 center라는 객체의 멤버변수
 	protected int width;	//자료형의 멤버변수
