@@ -13,6 +13,7 @@ public class d5dowhile {
 		 * 		실행문;
 		 * }while(조건식);
 		 */
+		
 		int menu;
 		Scanner scan = new Scanner(System.in);
 		do{
