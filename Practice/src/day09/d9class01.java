@@ -1,12 +1,13 @@
 package day09;
 
 import java.util.Scanner; 
-// java.utill이라는 package안에  scanner라는 class를 가져오겠다
-// 다른 패키지 안에 있는 클래스를 사용하려면 import package.class;을 선언해야 해당 클래스를 사용가능
+//java.utill이라는 package안에  scanner라는 class를 가져오겠다
+//다른 패키지 안에 있는 클래스를 사용하려면 import package.class;을 선언해야 해당 클래스를 사용가능
 public class d9class01 {
 
 	public static void main(String[] args) {
-		/* 클래스 멤버변수와 객체(일반) 멤버변수
+		/* d9 클래스 멤버변수
+		 * 클래스 멤버변수와 객체(일반) 멤버변수
 		 * - 객체(일반) 멤버변수
 		 * 객체가 생성된 후에 사용할 수 있다 = new Television
 		 * 객체.멤버변수, 객체.멤버메서드로 호출
