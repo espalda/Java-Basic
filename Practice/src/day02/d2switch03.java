@@ -2,10 +2,10 @@ package day02;
 
 import java.util.Scanner;
 
-public class d2switch07 {
+public class d2switch03 {
 
 	public static void main(String[] args) {
-		/* d2 switch 랜덤 가위바위보
+		/* d2 switch 가위바위보
 		 * 1. com이 랜덤으로 가위 바위 보 중에서 하나 선택된 상태에서 (랜덤으로 수 만들기)
 		 * 2. user가 가위 바위 보 중 하나를 선택하면
 		 * 3. 누가 이겼는지 확인하는 게임
@@ -17,10 +17,10 @@ public class d2switch07 {
 		
 		int min = 1;
 		int max = 3;
-		// min 에서 max 사이의 정수를 랜덤으로 생성하는 코드
-		// com이 가위(1) 바위(2) 보(3) 중에서 랜덤으로 하나 선택
+		//min 에서 max 사이의 정수를 랜덤으로 생성하는 코드
+		//com이 가위(1) 바위(2) 보(3) 중에서 랜덤으로 하나 선택
 		int com = (int)(Math.random()*(max-min+1) + min);
-		// 가위 바위 보 선택
+		//가위 바위 보 선택
 		int user = 0;
 		Scanner scan = new Scanner(System.in);
 		System.out.print("가위(1), 바위(2), 보(3) 중 하나를 입력하세요 : >");
