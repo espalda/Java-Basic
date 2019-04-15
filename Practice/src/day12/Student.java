@@ -2,7 +2,7 @@ package day12;
 
 public class Student{
 	//d12 클래스 Student
-	private String name;//name은 String이라는 class의 객체
+	private String name; //name은 String이라는 class의 객체
 	private int grade;
 	private int classnum;
 	private int num;
@@ -43,7 +43,7 @@ public class Student{
 		 * 		클래스나 객체명 다음에 온다
 		 */
 		if(name.length()<=5)
-		this.name = name; //스튜던트 클래스 this.의 name 매개변수
+		this.name = name; //Student 클래스 this.의 name 매개변수
 	}
 	public void setGrade(int grade) {
 		this.grade = grade;
@@ -103,6 +103,7 @@ public class Student{
 		this.setMath(math);
 	}
 	//toString 요약정리
+	//toString() 문자열이 필요한 부분에 객체를 넘겨주면 해당 객체의 toString 메서드가 자동으로 호출된다
 	@Override
 	public String toString() {
 		return "Student [이름=" + name + ", 학년=" + grade + ", 반=" + classnum + ", 번호=" + num + ", 국어성적=" + kor
