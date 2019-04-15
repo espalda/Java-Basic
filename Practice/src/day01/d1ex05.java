@@ -33,12 +33,13 @@ public class d1ex05 {
 		 * num = num + 1
 		 */
 		
-		int num = 10;
-		System.out.println("후위형 진행 : "+ num++);
-		System.out.println("후위형 결과 : "+ num);
+		int i = 10;
+		System.out.println("후위형 진행 : "+ i++);
+		System.out.println("후위형 결과 : "+ i);
 		
-		System.out.println("전위형 진행 : "+ ++num);
-		System.out.println("전위형 결과 : "+ num);
+		int j = 10;
+		System.out.println("전위형 진행 : "+ ++j);
+		System.out.println("전위형 결과 : "+ j);
 		
 	
 
