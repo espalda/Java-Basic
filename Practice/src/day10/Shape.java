@@ -12,9 +12,8 @@ public class Shape {
 	 * 클래스 멤버변수는 변할수있는 값이다
 	 * final 상수와의 차이점은 final 멤버변수는 변하지 않는 고정된 값이다
 	 * final 클래스 멤버변수
-	 */
-	
-	/* 외부에서 center값을 접근하기 위해서  setter 와  getter 를 설정
+	 	
+	 * 외부에서 center값을 접근하기 위해서  setter 와  getter 를 설정
 	 * public은 get/set 필요 없음
 	 * getter, setter 설정
 	 */
@@ -46,7 +45,7 @@ public class Shape {
 	}
 	//생성자
 	public Shape(){
-		center = new Point();	// 객체 생성필수, 위에 객체 생성을 하지 않은 이유는 아래에 객체 설정을 다시 해줘야 하기 때문에
+		center = new Point();	//객체 생성필수, 위에 객체 생성을 하지 않은 이유는 아래에 객체 설정을 다시 해줘야 하기 때문에
 	}
 	public Shape(int x, int y, int width, int height){
 		center = new Point(x,y);
