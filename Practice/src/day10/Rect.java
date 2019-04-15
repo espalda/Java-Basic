@@ -3,11 +3,23 @@ package day10;
 public class Rect extends Shape {
 	
 	public static void main(String[] args) {
+		 /* d10 상속 Rect
+		  * 다형성 : 하나로 여러타입을 커버
+		  *
+		 * 참조변수의 형변환
+		 * 		자식에서 부모로 : 자동
+		 * 		부모에서 자식으로 : 명시적(조건적으로 가능)
+		 * 		Shape s = new Rect(); 가능
+		 * 		Rect r = (Rect)s; 가능
+		 * 		Shape s = new Shape(); 불가능
+		 * 		Rect r = (Rect)s; 불가능
+		 * instanceof : 형변환 가능 여부를 알려주는 연산자
+		 
 		Rect r = new Rect(1,2,3,4);
 		r.print();
 		r.resize(5, 50);
 		r.print();
-		/* d10 상속 Rect
+		/* 
 		 * 다형성 : 여러가지 형채를 가질수 있는 능력
 				  한타입의 참조변수로 여러타입의 객체를 참조할수있다
 		 		  부모타입의 참조변수로 자손타입의 인스턴스를 참조할수 있다
@@ -32,7 +44,6 @@ public class Rect extends Shape {
 		
 	}
 	private int area;
-	
 	public int getArea() {	//getter만 만드는지 이유, 넓이는 다른정보를 이용하지 않으므로 setter x
 		return area;
 	}
