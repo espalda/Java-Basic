@@ -3,9 +3,10 @@ package day12;
 import java.util.Scanner;
 
 public class StudentManager {
-	//d12 클래스 Student manager
-	//Student와 StudentManager로 나눈 이유
-	//재사용이 용이, 코드의 중복을 줄임, 프로그램의 구조화
+	/* d12 클래스 Student manager
+	 * Student와 StudentManager로 나눈 이유
+	 * 재사용이 용이, 코드의 중복을 줄임, 프로그램의 구조화
+	 */
 	private Student std[];	//학생들 정보를 담을 배열
 	private int count; 	//현재 저장된 학생 수
 	private final int MIN_STUDENT_COUNT = 300;
