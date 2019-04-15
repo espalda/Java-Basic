@@ -3,18 +3,23 @@ package day08;
 public class d8class02 {
 
 	public static void main(String[] args) {
-		//d8 클래스 Television
-		Television t = null;
-		t = new Television();
+		/* d8 클래스 Television
+		 * Television 클래스
+		 * t 참조변수 객체
+		 */
+		Television t = new Television();
+		t.volumeUp();
+		t.printVolume();
+		t.printchannel(50);
+		Television tt = new Television(50,20);
+		tt.printVolume();
+		tt.printchannel(4);
 	}
 }
 class Television{
-		/* Television 클래스
-		 * t 참조변수 객체
-		 
-		 * 멤버 변수 : 부품, 요소
+		/* 멤버 변수 : 부품, 요소
 		 * 일반적으로 멤버 변수는 접근제한자를 private로 설정하여
-		 * 멤버 변수를 직접 수정할 수 없게 하고, 멤버 메소드를 통해 수정하도록 한다.
+		 * 멤버 변수를 직접 수정할 수 없게 하고, 멤버 메소드를 통해 수정하도록 한다
 		 */		
 			private int channel;
 			private int volume;
@@ -26,9 +31,8 @@ class Television{
 		 * 기능 : 멤버변수 volume의 크기를 하나 증가하는 메서드
 		 * 매개변수 : 없음 void or 생략가능
 		 * 리턴타입 : 없음 void
-		 * 메서드명 : volumn
+		 * 메서드명 : volume
 		 */
-		
 			public void volumeUp(){
 				if(MAX_VOLUME > volume)
 					volume++;
@@ -46,7 +50,6 @@ class Television{
 		 * 리턴타입 : 없음 void
 		 * 메서드명 : channel
 		 */
-		
 			public void channelUp(){
 				if(MAX_CHANNEL > channel)
 					channel++;
@@ -57,9 +60,17 @@ class Television{
 				}
 			public void printchannel(int ch){
 				channel = ch;
+				System.out.println(channel);
 			}
 			
-		
+			//생성자
+			public Television(){
+				this(100,30);
+			}
+			public Television(int ch, int vol){
+				this.channel=ch;
+				this.volume=vol;
+			}
 		
 		
 }
