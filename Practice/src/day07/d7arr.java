@@ -12,8 +12,8 @@ public class d7arr {
 			int num2 = scan.nextInt();
 			int num3 = scan.nextInt();
 			
-			//방법1
 			int arr [] = new int [3];
+			//방법1
 			for(int i=0; i<3; i++){
 				arr[0] = num1;
 				arr[1] = num2;
