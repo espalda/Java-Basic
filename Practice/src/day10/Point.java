@@ -3,8 +3,8 @@ package day10;
 public class Point {
 	//d10 클래스 Point
 	//이차원에서 한 점을 나타내는 클래스
-	private int x; //접근제한자가 private 인 맴버변수 int x와
-	private int y; //접근제한자가  private 인 멤버변수 int y
+	private int x;
+	private int y;
 	
 	//public을 제외한 나머지는 외부에서 값을 확인할수 없어서  getter와 setter를 사용함!
 	public int getX() {//변수를 확인하는 기능
