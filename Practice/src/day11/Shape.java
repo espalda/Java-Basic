@@ -24,7 +24,7 @@ public class Shape implements Draw {
 		this.center.setY(center.getY());
 	}
 	
-	//추가 : 객체를 만들기 번거로워서 새로이 추가
+	//객체를 만들기 번거로워서 새로이 추가
 	public void setCenter(int x, int y) {
 		this.center.setX(x);
 		this.center.setY(y);
