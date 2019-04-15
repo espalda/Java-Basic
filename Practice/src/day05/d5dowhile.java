@@ -16,7 +16,7 @@ public class d5dowhile {
 		
 		int menu;
 		Scanner scan = new Scanner(System.in);
-		do{
+		do{ 
 			System.out.println("메뉴");
 			System.out.println("1.학생정보 추가");
 			System.out.println("2.학생정보 수정");
