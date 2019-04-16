@@ -2,10 +2,10 @@ package day01;
 
 import java.util.Scanner;
 
-public class d1ex04 {
+public class d1Scanner {
 
 	public static void main(String[] args) {
-		/* d1 스캐너 콘솔
+		/* d1 Scanner
 		 * Scanner scan = new Scanner(system.in);
 		 * 자료형 변수명 = scan.next자료형();
 		 * scan.close();
