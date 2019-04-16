@@ -1,9 +1,9 @@
 package day01;
 
-public class d1ex01 {
+public class d1primitive {
 
 	public static void main(String[] args) {
-		/* d1 자료형 변수명
+		/* d1 기본형 primitive type
 		 * 변수 : 값을 저장할수 있는 메모리상의 공간, 단 하나의 값만 저장
 		 * 변수의 초기화 : 변수를 사용하기 전에 처음으로 값을 저장하는 것
 		

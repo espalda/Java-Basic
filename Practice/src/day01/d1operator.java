@@ -1,9 +1,9 @@
 package day01;
 
-public class d1ex05 {
+public class d1operator {
 
 	public static void main(String[] args) {
-		/* d1 연산자 종류
+		/* d1 연산자 operator
 		 * 산술 : + - * / %, 나누기와 모드는 0으로 나눌수 없다
 		 * 비교 : > >= < <= == != 크기비교, 조건식 (== 와 = 는 다름)
 		 * 논리 : && ~하고, || ~하거나, !아니다 진리표, 조건식

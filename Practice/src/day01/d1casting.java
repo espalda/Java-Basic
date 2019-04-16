@@ -1,9 +1,9 @@
 package day01;
 
-public class d1ex03 {
+public class d1casting {
 
 	public static void main(String[] args) {
-		/* d1 형변환
+		/* d1 형변환 casting
 		 * 자동 형변환 : 데이터 손실이 없다
 		 * 명시적 형변환 : 데이터 손실이 발생할수도 있다
 		 */
