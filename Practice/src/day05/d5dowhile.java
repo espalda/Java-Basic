@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class d5dowhile {
 
 	public static void main(String[] args) {
-		/* d5 Do while문
+		/* d5 do while문
 		 * for,while : 조건식에 따라 한번도 실행되지 않을 수 있다.
 		 * do while : 조건식에 따라 최소한 1번은 실행
 

@@ -1,6 +1,6 @@
 package day07;
 
-public class d7ex02 {
+public class d7meth01 {
 
 	public static void main(String[] args) {
 		/* d7 일반변수 참조변수

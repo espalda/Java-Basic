@@ -4,6 +4,7 @@ public class d10interface {
 
 	public static void main(String[] args) {
 		/* d10 인터페이스 interface
+		 * 인터페이스는 생성자가 없드아
 		 * 추상메서드와 클래스 멤버 상수로만 이루어져 있는 것
 		 * + 디폴트 메서드 : 인터페이스에 새로운 기능을 추가하면 해당 인터페이스를 구현한 모든 클래스에 메서드 오버라이딩을 해야하기 때문에
 		 * 불필요한 문제가 생길 수 있다

@@ -1,6 +1,6 @@
-package day06;
+package day07;
 
-public class d6meth06 {
+public class d7methLotto {
 
 	public static void main(String[] args) {
 		//d6 메서드 로또 생성

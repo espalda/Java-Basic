@@ -1,6 +1,6 @@
 package day14;
 
-public class d14ex01 {
+public class d14ex {
 
 	public static void main(String[] args) {
 		//d14 복습 예외 발생

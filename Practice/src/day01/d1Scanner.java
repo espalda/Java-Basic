@@ -13,8 +13,9 @@ public class d1Scanner {
 		
 		//콘솔에서 입력받은 숫자가 1보다 크거나 같고 100보다 작거나 같은지 출력
 		Scanner scan = new Scanner(System.in);
-		String str = scan.nextLine();
+		
 		char ch = scan.next().charAt(0);
+		String str = scan.nextLine();
 		int num = scan.nextInt();
 		
 		//방법1

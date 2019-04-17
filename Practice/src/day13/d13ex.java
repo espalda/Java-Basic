@@ -1,6 +1,6 @@
 package day13;
 
-public class d13ex02 {
+public class d13ex {
 
 	public static void main(String[] args) {
 		//d13 복습 배열

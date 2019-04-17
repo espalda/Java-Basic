@@ -1,6 +1,6 @@
 package day09;
 
-public class Point {
+public class d9Point {
 	/* d9 클래스 Point
 	 * 2차원 좌표의 점을 의미하는 Point class
 	 * 필요한 멤버변수 : 부품, 요소
@@ -21,16 +21,16 @@ public class Point {
 	
 
 		//생성자는 무조건 접근제한자가 public이어야함
-		public Point(){
+		public d9Point(){
 			x=0; y=0;
 			//move(0,0);
 		}
-		public Point(int x, int y){
+		public d9Point(int x, int y){
 			this.x = x;
 			this.y = y;
 			//move(x,y);
 		}
-		public Point(Point p){
+		public d9Point(d9Point p){
 			this(p.x, p.y);
 			//move(p.x, p.y);
 		}
@@ -65,7 +65,7 @@ public class Point {
 		 * int dx = p.x - x; // x - this.x
 		 * int dy = p.y - y; // y - thin.y
 		 */
-		public double distance(Point p){
+		public double distance(d9Point p){
 			return distance(p.x,p.y);
 		}
 		public double distance(int x, int y){

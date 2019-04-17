@@ -1,6 +1,6 @@
 package day08;
 
-public class d8ex03 {
+public class d8return {
 
 	public static void main(String[] args) {
 		//d8 메서드 return
@@ -13,9 +13,9 @@ public class d8ex03 {
 		 * 반복문 안에서 return 할 경우 반복문 조건이 거짓이 되어 실행되지 않을 경우 고려
 		 */
 	
-		//i++이 실행될 일이 없다는 것이 무슨 의미인가..
-		public static int test (){
-			int r = 0;
+		//i++이 실행될 일이 없다
+		public static int test(){
+			int r=0;
 			for(int i=1; i<=9; i++){
 				r = r+i;
 				return r;

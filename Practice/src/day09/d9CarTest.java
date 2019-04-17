@@ -1,10 +1,10 @@
 package day09;
 
-public class CarTest {
+public class d9CarTest {
 
 	public static void main(String[] args) {
 		//d9 클래스 Car test
-		Car car = new Car();
+		d9Car car = new d9Car();
 		car.printCar();
 		car.turnOn();
 		car.printCar();

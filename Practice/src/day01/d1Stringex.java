@@ -3,8 +3,7 @@ package day01;
 public class d1Stringex {
 
 	public static void main(String[] args) {
-		/* d1 String 예제
-		 */
+		//d1 String 예제
 		String name = "JA" + "VA";
 		String str = name + 8.0;
 		

@@ -1,6 +1,6 @@
 package day02;
 
-public class d2for02 {
+public class d2for2 {
 
 	public static void main(String[] args) {
 		//d2 반복문 예제

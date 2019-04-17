@@ -5,7 +5,7 @@ import java.util.Scanner;
 import day12.Student;
 import day12.StudentManager;
 
-public class d13ex01 {
+public class StudentScan {
 
 	public static void main(String[] args) {
 		//d13 스캐너 Student manager

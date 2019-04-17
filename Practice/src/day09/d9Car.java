@@ -1,6 +1,6 @@
 package day09;
 
-public class Car {
+public class d9Car {
 	//d9 클래스 Car
 	private int speed;
 	private boolean power;
@@ -48,7 +48,7 @@ public class Car {
 	}
 	
 	//생성자는 무조건 접근제한자가 public이어야함
-	public Car(){
+	public d9Car(){
 		this.power = false;
 		this.speed = 0;
 		this.gear = 'P';

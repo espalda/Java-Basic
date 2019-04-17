@@ -1,6 +1,6 @@
 package day07;
 
-public class d7ex04 {
+public class d7meth03 {
 
 	public static void main(String[] args) {
 		/* d7 메서드 재사용성

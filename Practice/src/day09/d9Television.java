@@ -1,6 +1,6 @@
 package day09;
 
-public class Television {
+public class d9Television {
 	/* d9 클래스 Television
 	 * 같은 패키지내에서는 동일한 클래스명을 가진 클래스가 있으면 안된다
 	 * 일반 멤버변수, 객체 멤버변수
@@ -62,13 +62,13 @@ public class Television {
 		 * 생성자는 객체를 생성할 때에만 호출한다
 		 * 객체멤버변수를 초기화한다
 		 */
-		public Television() {
+		public d9Television() {
 			this(8, 10);
 			//channel = 1;
 			//volume = 10;
 		}
 		//기본 생성자가 있어야 생성자 오버로딩으로 설정 가능함
-		public Television(int channel, int volume) {
+		public d9Television(int channel, int volume) {
 			setChannel(channel);
 			if(volume > MAX_VOLUME)
 				this.volume = MAX_VOLUME;
@@ -76,7 +76,7 @@ public class Television {
 				this.volume = volume;
 		}
 		//복사 생성자
-		public Television(Television stv){
+		public d9Television(d9Television stv){
 			this(stv.channel, stv.volume);
 			//channel =stv.channel;
 			//volume = stv.volume;

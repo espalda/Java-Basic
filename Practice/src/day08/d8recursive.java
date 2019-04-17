@@ -1,6 +1,6 @@
 package day08;
 
-public class d8ex04 {
+public class d8recursive {
 
 	public static void main(String[] args) {
 		/* d8 재귀 호출 recursive call
