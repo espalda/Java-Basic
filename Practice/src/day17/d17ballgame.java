@@ -6,14 +6,14 @@ public class d17ballgame {
 
 		public static void main(String[] args) {
 			/* 1 컴퓨터 - 1에서 9사이의 3개의 중복되지 않는 3개의 숫자 선택 random 메서드
-			* 2 반복문 -
-			* 3 숫자를 3개 입력받아서 List에 저장
-				4 스트라이트 갯수 계산 ==>새로운 메서드
-				5 볼 갯수 계산 ==> count 갯수 확인
+			 * 2 반복문 -
+			 * 3 숫자를 3개 입력받아서 List에 저장
+			 * 4 스트라이트 갯수 계산 ==>새로운 메서드
+			 * 5 볼 갯수 계산 ==> count 갯수 확인
 				countList()를 계산후 스트라이트 갯수를 빼면
 				볼의 갯수
 				count()는 스크라이크 + 볼의 갯수
-				출력
+			 * 6 출력
 			 */
 			List<Integer> computer = d17Lotto.random(1, 9, 3);
 			System.out.println(computer);
@@ -28,11 +28,12 @@ public class d17ballgame {
 			ball = d17Lotto.count(computer, user) - strike;
 			print(strike, ball);
 			}
+			
 			System.out.println("정답입니다");
 			System.out.println("프로그램을 종료합니다");
 			scan.close();
 		}
-		
+		//숫자 동일한지는 그렇다 쳐도, 자리위치가 동일한것은 어떻게? index of를 사용하지 않고도?
 		public static int getStrike(List<Integer>com, List<Integer>user){
 			int count =0;
 			for(int i=0; i<com.size(); i++){
@@ -53,19 +54,20 @@ public class d17ballgame {
 		}
 		
 		public static List<Integer> input(Scanner scan){
-			Set set = new HashSet<Integer>();
-			while(set.size()<3){
+			/*Set<Integer> set = new HashSet<Integer>();
+			while(set.size() < 3){
 				int num = scan.nextInt();
 				set.add(num);
 			}
-			/*Iterator<Integer> it = set.iterator();
+			Iterator<Integer> it = set.iterator();
 			List<Integer> list = new LinkedList<Integer>();
 			while(it.hasNext()){
-				list.add(it.next());*/
-				List<Integer> list = new LinkedList<Integer>();
-					while(list.size() < 3){
-						int num = scan.nextInt();
-						list.add(num);
+				list.add(it.next());
+			}*/
+			List<Integer> list = new LinkedList<Integer>();
+			while(list.size() < 3){
+				int num = scan.nextInt();
+				list.add(num);
 				}
 			return list;
 		}

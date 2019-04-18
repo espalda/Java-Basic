@@ -1,6 +1,6 @@
 package day12;
 
-public class StudentTest {
+public class d12StudentTest {
 	/* d12 클래스 Student test
 	 * 한 학교에서 학생 전체를 관리하기 위한 프로그램
 	 * 학생의 이름, 학년, 반, 번호, 국어성적, 영어성적, 수학성적 등을 관리
@@ -17,19 +17,19 @@ public class StudentTest {
 		 * int [] grade = new int [MAX_STUDENT_COUNT];
 		 */
 
-		StudentManager stdMng =
-				new StudentManager(MAX_STUDENT_COUNT);
-		stdMng.insert(new Student("A",1,1,1,100,90,80));
-		stdMng.insert(new Student("D",1,1,1,100,90,80));
-		stdMng.insert(new Student("B",1,1,2,100,90,80));//객체를 생성했는데 이름이 없다 = 익명개체
+		d12StudentManager stdMng =
+				new d12StudentManager(MAX_STUDENT_COUNT);
+		stdMng.insert(new d12Student("A",1,1,1,100,90,80));
+		stdMng.insert(new d12Student("D",1,1,1,100,90,80));
+		stdMng.insert(new d12Student("B",1,1,2,100,90,80));//객체를 생성했는데 이름이 없다 = 익명개체
 		stdMng.print();
 		System.out.println("----------------");
 		
-		stdMng.modify(new Student("C",1,1,2,100,100,100));
+		stdMng.modify(new d12Student("C",1,1,2,100,100,100));
 		stdMng.print();
 		System.out.println("----------------");
 		
-		stdMng.delete(new Student("",1,2,1,0,0,0));
+		stdMng.delete(new d12Student("",1,2,1,0,0,0));
 		stdMng.print();
 	}
 	public static void printMenu(){

@@ -12,15 +12,14 @@ public class d16ArrayList1 {
 		 * 종류 : Collection(List, Set)과 map이 있다
 		 * 컬렉션은 하나의 값을 이용
 		 * List : 중복 허용하므로 순서가 있다
-		 * 		Stack, Vector, ArrayList, LinkedList
+		  		Stack, Vector, ArrayList, LinkedList
 		 * Set : 중복 불가해서 순서 보장하지 않음
 		 * map : key와 value의 두개의 값으로 이루어짐
-		 * 		 key는 중복불가, value는 중복허용
-		 
+		  		 key는 중복불가, value는 중복허용
+		  		 
 		 * ArrayList : List인터페이스를 구현한 클래스(순서가 있고 중복 허용)
 		 * 				배열로 이루어진 리스트, 탐색이 빠르다, 삽입삭제가 중간일때 속도가 느려진다
 		 * ArrayList의 객체를 생성할 때 어떤 데이터(자료형 또는 클래스)를 이용할건지 결정해야한다
-		 * 
 		 * LinkedList : 삽입 삭제가 좋고 탐색 속도가 느려진다
 		 */
 		ArrayList<Integer> list = new ArrayList<Integer>();

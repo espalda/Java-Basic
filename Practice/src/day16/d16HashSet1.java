@@ -11,6 +11,7 @@ public class d16HashSet1 {
 		 */
 		Object [] objArr = {"1", new Integer(1), "2","2","3","3","4","4","4","1"}; 
 		Set set = new HashSet();
+		
 		for(int i=0; i<objArr.length; i++){
 			set.add(objArr[i]);
 		}

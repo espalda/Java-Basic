@@ -1,6 +1,6 @@
 package day12;
 
-public class Student{
+public class d12Student{
 	//d12 클래스 Student
 	private String name; //name은 String이라는 class의 객체
 	private int grade;
@@ -71,18 +71,18 @@ public class Student{
 	 * 단, 생성자가 하나라도 구현되어 있으면 기본 생성자는 만들어지지 않는다
 	 * 생성자는 기본생성자가 없으면 구현될수 없다 그래서 기본 생성자를 직접 구현해주어야한다
 	 */
-	public Student(){
+	public d12Student(){
 		/*name = new String(); //name = "";
 		grade = 1;
 		classnum = 1;
 		num = 1;*/
 		init();
 	}
-	public Student (String name, int grade, int classnum, int num, double kor, double eng, double math){
+	public d12Student (String name, int grade, int classnum, int num, double kor, double eng, double math){
 		init(name, grade, classnum, num, kor, eng, math);
 			
 	}
-	public Student(Student s){ //객체로 호출하기 위해서???
+	public d12Student(d12Student s){ //객체로 호출하기 위해서???
 		init(s.name, s.grade, s.classnum, s.num, s.kor, s.eng, s.math);
 	}
 	

@@ -2,25 +2,25 @@ package day12;
 
 import java.util.Scanner;
 
-public class StudentManager {
+public class d12StudentManager {
 	/* d12 클래스 Student manager
 	 * Student와 StudentManager로 나눈 이유
 	 * 재사용이 용이, 코드의 중복을 줄임, 프로그램의 구조화
 	 */
-	private Student std[];	//학생들 정보를 담을 배열
+	private d12Student std[];	//학생들 정보를 담을 배열
 	private int count; 	//현재 저장된 학생 수
 	private final int MIN_STUDENT_COUNT = 300;
 	
-	public StudentManager(){
-		std = new Student[MIN_STUDENT_COUNT];	//std는 참조변수라 배열생성해야함
+	public d12StudentManager(){
+		std = new d12Student[MIN_STUDENT_COUNT];	//std는 참조변수라 배열생성해야함
 		//멤버변수 초기화 순서
 		//기본값 → 명시적 초기화 → 초기화 블록 → 생성자
 	}
-	public StudentManager(int studentCnt){
+	public d12StudentManager(int studentCnt){
 		if(studentCnt >= MIN_STUDENT_COUNT)
-			std = new Student[studentCnt];
+			std = new d12Student[studentCnt];
 		else
-			std = new Student[MIN_STUDENT_COUNT];
+			std = new d12Student[MIN_STUDENT_COUNT];
 	}
 		/* 기능 : 학생정보를 배열에 추가
 		 * 매개변수 : 학생정보 Student s
@@ -28,7 +28,7 @@ public class StudentManager {
 		 * 리턴타입 : void
 		 * 메서드명 : insert
 		 */
-		public void insert (Student s){
+		public void insert (d12Student s){
 			/* std[??] : Student 클래스의 객체는 초기에 선언만 되어있음
 			 * insert 기능에서 객체정보를 추가하려면 객체를 생성한 후
 			 * 매개변수의 값을 복사해야한다
@@ -40,7 +40,7 @@ public class StudentManager {
 			int searchIndex
 			= search(s.getGrade(), s.getClassnum(), s.getNum()); //검색했을 때 해당 정보가 있는 번지
 			 if(searchIndex == -1){
-				 std[count++] = new Student(s);
+				 std[count++] = new d12Student(s);
 				//count++;
 			 }
 		}
@@ -78,11 +78,11 @@ public class StudentManager {
 		 * 리턴타입 : void
 		 * 메서드명 : modify
 		 */
-		public void modify(Student s){ 
+		public void modify(d12Student s){ 
 			int searchIndex
 			= search(s.getGrade(), s.getClassnum(), s.getNum()); //검색했을 때 해당 정보가 있는 번지
 			 if(searchIndex != -1){
-				 std[searchIndex] = new Student(s);
+				 std[searchIndex] = new d12Student(s);
 			 }
 			 
 		}
@@ -91,7 +91,7 @@ public class StudentManager {
 		 * 리턴타입 : void
 		 * 메서드명 : delete
 		 */
-		public void delete(Student s){
+		public void delete(d12Student s){
 			int searchIndex = search(s.getGrade(), s.getClassnum(), s.getNum()); //검색했을 때 해당 정보가 있는 번지
 			 if(searchIndex != -1){
 				 //배열을 밀기
@@ -118,8 +118,8 @@ public class StudentManager {
 		 * 리턴타입 : 학생객체 Student
 		 * 메서드명 : inputSearchStudent
 		 */
-		public Student inputSearchStudent(Scanner scan){
-			Student s = new Student();
+		public d12Student inputSearchStudent(Scanner scan){
+			d12Student s = new d12Student();
 			System.out.print("학년: ");
 			s.setGrade(scan.nextInt());
 			System.out.print("반: ");
@@ -134,9 +134,9 @@ public class StudentManager {
 		 * 리턴타입 : 학생객체 Student
 		 * 메서드명 : inputStudent
 		 */
-		public Student inputStudent(Scanner scan){
+		public d12Student inputStudent(Scanner scan){
 			
-			Student s = inputSearchStudent(scan);
+			d12Student s = inputSearchStudent(scan);
 			
 			System.out.print("이름: "); 
 			s.setName(scan.next());

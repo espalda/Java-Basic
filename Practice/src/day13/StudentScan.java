@@ -2,20 +2,20 @@ package day13;
 
 import java.util.Scanner;
 
-import day12.Student;
-import day12.StudentManager;
+import day12.d12Student;
+import day12.d12StudentManager;
 
 public class StudentScan {
 
 	public static void main(String[] args) {
 		//d13 스캐너 Student manager
-		StudentManager mng = new StudentManager();
+		d12StudentManager mng = new d12StudentManager();
 		int menu=0;
 		Scanner scan = new Scanner(System.in);
 		do{
 			mng.printMenu();
 			menu = scan.nextInt();
-			Student s;
+			d12Student s;
 			if(menu == 1){
 				System.out.println("[추가할 학생 정보를 입력하세요]");
 				s = mng.inputStudent(scan);
