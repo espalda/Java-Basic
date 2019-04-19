@@ -62,7 +62,10 @@ public class university {
 		grade = Grade.FRESHMAN;
 		major = Major.NONE;
 	}
-						
+	public university(university u){
+		this(u.gender, u.grade, u.major, u.name, u.id);
+
+	}					
 	public university(Gender gender, Grade grade, Major major, String name, Integer id){
 		this.gender = gender;
 		this.grade = grade;
@@ -71,13 +74,7 @@ public class university {
 		this.id = id;
 	}
 	
-	public university(university u){
-		this.gender = u.gender;
-		this.grade = u.grade;
-		this.major = u.major;
-		this.name = u.name;
-		this.id = u.id;
-	}
+	
 
 	@Override
 	public String toString() {

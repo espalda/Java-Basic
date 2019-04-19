@@ -9,7 +9,7 @@ public class unitest {
 
 		unimanager um = new unimanager();
 		um.insert(new university(Gender.MALE, Grade.FRESHMAN, Major.NONE, "SK", 123546));
-		System.out.println(um);
+		um.print();
 	}
 
 }

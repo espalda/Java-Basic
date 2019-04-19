@@ -15,20 +15,21 @@ public class unimanager {
 	}
 	
 
-	/* 기능 : 학생정보를 검색해서 없으면 -1 있으면 배열에 위치한 번지를 알려주는 기능
+	/* 기능 : 찾으려는 학생 정보를  id로 검색하겠다!
+	 * 		 그래서 내가 스캐너로 입력한 id와 뭐가 일치하면 번지를 알려주는 기능
 	 * 매개변수 : int id
 	 * 리턴타입 : -1 또는 번지 int
 	 * 메서드명 : search
 	 */
-	 	private int search(int id){
+	 	/*private int search(int id){
 			Iterator<university> it = set.iterator();
 			for(int i=0; i<cnt; i++){
-				while(it.hasNext()){
+				while(equals(u)){
 					return i;
 				}
 			}
 			return -1;
-		}
+		}*/
 	
 	/* 기능 : 학생정보 전체 출력
 	 * 매개변수 : 없음
