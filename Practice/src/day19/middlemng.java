@@ -11,9 +11,10 @@ public class middlemng {
 		 * 리턴타입 : 학생정보 middleStd
 		 * 메서드명 : insert
 		 */ 
-		public boolean insert(middleStd m){
+		public middleStd insert(middleStd m){
 			middleStd tmp = new middleStd(m);
-			return inform.add(tmp);
+			inform.add(tmp);
+			return tmp;
 		}
 		
 		public void print(){
@@ -35,15 +36,22 @@ public class middlemng {
 	
 		}
 		
-		public boolean delete(middleStd m){
+		public middleStd delete(middleStd m){
 				middleStd tmp = search(m);
-				return inform.remove(tmp);
+				inform.remove(tmp);
+				return tmp;
 		
 		}
 		
-		public boolean update(middleStd m){
-			return insert(m);
+		public middleStd update(middleStd m){
+			if(delete(m) != null)
+				return insert(m);
+			return null;
 		}
+		//boolean 조건식에 delete(m)이라도 판별할수 있다.
+		//결과 true, false로 나오는데 출력은 따로 하지 않지만 참 거짓이라는걸 저장하고 있다.
+		//출력은 따로 설정해주는것
+		
 }
 
 

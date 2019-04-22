@@ -1,4 +1,4 @@
-package day19;
+package day20;
 
 import java.util.*;
 
@@ -120,28 +120,37 @@ public class Stdmanager {
 		String Sname = scan.next();
 		System.out.print("전공 : ");
 		String major = scan.next();
-		System.out.print("평점 : ");
-		double avr = scan.nextDouble();
+		
 		System.out.println("-----------");
 		
 		tmp.setName(name);
 		tmp.setSname(Sname);
 		tmp.setMajor(major);
-		tmp.setAvr(avr);
 		
 		return tmp;
 	}
+	/* 기능 : 과목정보를 입력받아 과목 객체를 생성하여 돌려주는 기능
+	 * 매개변수 : 
+	 * 리턴타입 : 
+	 * 메서드명 : 
+	 */
+	public grade inputSubject(Scanner scan){
+		String title, professor, step;
+		int unit;
+		System.out.print("추가할 등급을 입력하세요 :");
+		step = scan.next();		//등급
+		System.out.print("추가할  교수이름을 입력하세요 :");
+		professor = scan.next();//교수
+		System.out.print("추가할 과목명을 입력하세요 :");
+		title =scan.next();		//과목명
+		System.out.print("추가할 학점을 입력하세요 :");
+		unit = scan.nextInt();	//학점
+		grade tmp = new grade(step, professor, title, unit);
+		return tmp;
+	}
+	
+	
 }
 
 
-
-
-
-
-
-
-
-
-
-	
 
