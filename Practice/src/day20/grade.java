@@ -1,7 +1,7 @@
 package day20;
 
 public class grade {
-	/* d20 성적의 세분화
+	/* d20 Std 클래스 성적의 세분화
 	 * 등급, 교수, 과목명, 학점
 	 */
 	private gradeStep step;		//등급
@@ -11,6 +11,7 @@ public class grade {
 	
 	
 	public String getStep() {
+		//열거형 gradeStep을 String 클래스로 변환
 		switch(step){
 		case Ap: return "A+";
 		case A: return "A";
@@ -63,15 +64,14 @@ public class grade {
 		setTitle(title);
 		setUnit(unit);
 		/* 멤버변수 초기화
-		 * 생성자는 객체가 생성된 이후에 초기화 할수 있지만
-		 * init은 딱히 상관없다.
+		 * 생성자는 객체가 생성된 이후에만 초기화 할수 있지만 init은 상관없음
 		 */
 	}
-	public grade(){}
-	public grade(String step, String prifessor, String title, int unit){
+	public grade(){}	//기본생성자
+	public grade(String step, String prifessor, String title, int unit){	//생성자 오버로딩
 		init(step, professor, title, unit);
 	}
-	public grade(grade g){
+	public grade(grade g){	//복사생성자
 		init(g.getStep(), g.professor, g.title, g.unit);
 		//들어가야할 매개변수의 타입은 String, String, String, int
 		//g.step은 매개변수의 타입이 달라서 g.step은 자료형이 gradeStep
@@ -79,15 +79,15 @@ public class grade {
 	
 	public double getPoint(){
 		switch(step){
-		case Ap: return 4.5;
-		case A: return 4;
-		case Bp: return 3.5;
-		case B: return 3;
-		case Cp: return 2.5;
-		case C: return 2;
-		case Dp: return 1.5;
-		case D: return 1;
-		case pass: return 0;
+		case Ap: 	return 4.5;
+		case A: 	return 4;
+		case Bp:	return 3.5;
+		case B: 	return 3;
+		case Cp:	return 2.5;
+		case C:	 	return 2;
+		case Dp:	return 1.5;
+		case D: 	return 1;
+		case pass: 	return 0;
 		default: return 0;
 		}
 	}

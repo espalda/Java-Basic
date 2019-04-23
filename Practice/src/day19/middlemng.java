@@ -44,13 +44,14 @@ public class middlemng {
 		}
 		
 		public middleStd update(middleStd m){
+			//boolean 조건식에 delete(m)이라도 판별할수 있다.
+			//결과 true, false로 나오는데 출력은 따로 하지 않지만 참 거짓이라는걸 저장하고 있다.
+			//출력은 따로 설정해주는것
 			if(delete(m) != null)
 				return insert(m);
 			return null;
 		}
-		//boolean 조건식에 delete(m)이라도 판별할수 있다.
-		//결과 true, false로 나오는데 출력은 따로 하지 않지만 참 거짓이라는걸 저장하고 있다.
-		//출력은 따로 설정해주는것
+		
 		
 }
 

@@ -1,6 +1,6 @@
 package day08;
 
-public class d8meth01 {
+public class d8meth1 {
 
 	public static void main(String[] args) {
 		//d8 메서드 복습

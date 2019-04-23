@@ -15,7 +15,7 @@ public class d17ballgame {
 				count()는 스크라이크 + 볼의 갯수
 			 * 6 출력
 			 */
-			List<Integer> computer = d17Lotto.random(1, 9, 3);
+			List<Integer> computer = d17lotto.random(1, 9, 3);
 			System.out.println(computer);
 			List<Integer> user = new LinkedList<Integer>();
 			int strike =0;
@@ -25,7 +25,7 @@ public class d17ballgame {
 				user.clear(); //매번 입력받은 값들이 누적되어 3개가 초과되기 때문에 다음 실행시 초기화
 			user = input(scan);
 			strike = getStrike(computer, user);
-			ball = d17Lotto.count(computer, user) - strike;
+			ball = d17lotto.count(computer, user) - strike;
 			print(strike, ball);
 			}
 			

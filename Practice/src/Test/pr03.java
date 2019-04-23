@@ -15,7 +15,6 @@ public class pr03 {
 		set.add(new Person("David",10));
 		set.add(new Person("David",10));
 		System.out.println(set);
-		
 	}
 }
 class Person{

@@ -2,7 +2,7 @@ package day17;
 
 import java.util.*;
 
-public class d17Lotto {
+public class d17lotto {
 
 	public static void main(String[] args) {
 		/* d17 로또

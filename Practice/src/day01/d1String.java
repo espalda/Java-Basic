@@ -1,6 +1,6 @@
 package day01;
 
-public class d1Stringex {
+public class d1String {
 
 	public static void main(String[] args) {
 		//d1 String 예제

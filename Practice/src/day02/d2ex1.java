@@ -1,6 +1,6 @@
 package day02;
 
-public class d2ex01 {
+public class d2ex1 {
 
 	public static void main(String[] args) {
 		/* d2 조건문 if문

@@ -11,6 +11,7 @@ public class Std {
 	 * 초기화 순서
 	 * 기본값 > 명시적 초기화 > 초기화 블럭 > 생성자
 	 */
+	
 	private String name="";
 	private String Sname="";
 	private String id="";
@@ -47,14 +48,12 @@ public class Std {
 		this.major = major;
 	}
 	
-
 	//toString()
 	//객체정보를 문자열로 쉽게 출력하기 위해서, 메서드 오버라이딩
 	@Override
 	public String toString() {
 		return "학생 [이름=" + name + ", 학번=" + id + ", 학교이름=" + Sname + ", 전공=" + major + ", 평점=" + avr + "]";
 	}
-	
 	
 	/* hashCode(), equals()
 	 * set을 이용하여 학생정보를 관리할것인데 set은 중복을 허용하지 않고
@@ -74,6 +73,7 @@ public class Std {
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		return result;
 	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -108,7 +108,6 @@ public class Std {
 		//복사 생성자는 아래에서 구현한 생성자 오버로딩을 호출 하여 코드의 중복을 제거함
 	}
 	
-
 	/* 생성자 오버로딩
 	 * 매개변수 name에 맴버변수 name을 저장해라
 	 */
@@ -120,19 +119,16 @@ public class Std {
 		this.avr=avr;
 		this.subjectList = subjectList;
 	}
+	
 	/* 기능: 학생이 수강과목을 입력하면 subjectList에 추가
 	 * 매개변수 : grade
 	 * 리턴타입 : 
 	 * 메서드명 : insertSubject
 	 */
-	
 	public void insertSubject(grade grade){
 		subjectList.add(grade);
 		calcAvr();
-		
-		
 	}
-	
 	
 	/* 기능 : 과목 리스트에 있는 과목들의 평점을 계산
 	 * 매개변수 : 실행에 필요한 외부 정보
@@ -142,9 +138,9 @@ public class Std {
 	 * 메서드명 : calcAvr
 	 */
 	public void calcAvr(){
-		//계산후 avr에 저장
-		//1. 리스트에 있는 과목들을 하나씩 가져옴 (반복문을 이용해서)
-		/* 2. 해당과목에서 받은 성적을 이용하여 계산
+		/* 계산후 avr에 저장
+		 * 1. 리스트에 있는 과목들을 하나씩 가져옴 (반복문을 이용해서)
+		 * 2. 해당과목에서 받은 성적을 이용하여 계산
 		 * 2-1. pass인 경우 해당 학점을 계산에 추가하지 않고 따로 학점만 저장한다
 		 * 2-2. 그 외의 성적은 해당 과목에 대한 평점을 구하고 평점과 학점을 곱한 값을 누적시키고 학점도 누적시킨다.
 		 * 3. 반복문이 종료되면 평점과 학점을 누적시킨 값에 누적시킨 학점으로 나눈후 avr에 저장 

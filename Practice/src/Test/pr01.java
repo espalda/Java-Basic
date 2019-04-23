@@ -7,19 +7,12 @@ public class pr01 {
 		String s = new String("Hello world");
 		//String이라는 자료형의 s라는 객체를 정의하고
 		//Hello world라는 객체를 생성했다!
-
+		
 		System.out.println(s);
 		System.out.println(s.charAt(9));
 		System.out.println(s.indexOf("w"));
 		System.out.println(s.contains("world"));
 	
-		int arr [] = {1,4,6,8,9,3};
-		int max = arr[0];
-		for(int tmp : arr){
-			if(max < tmp){
-				max = tmp;
-			}
-		}System.out.println(max);
 	}
 }
 

@@ -72,7 +72,6 @@ public class Stdmanager {
 		if(!delete(s))	return false;
 		return insert(s);
 		}
-	
 
 	/* 기능 : 전체 학생 정보를 출력하는 기능
 	 * 매개변수 : 없음, 전체를 출력하기 때문에, 만약 한명이나 일정 부분을 출력해야 한다면 필요
@@ -129,6 +128,7 @@ public class Stdmanager {
 		
 		return tmp;
 	}
+	
 	/* 기능 : 과목정보를 입력받아 과목 객체를 생성하여 돌려주는 기능
 	 * 매개변수 : 
 	 * 리턴타입 : 

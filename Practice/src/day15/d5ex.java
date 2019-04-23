@@ -2,10 +2,10 @@ package day15;
 
 import java.util.Scanner;
 
-public class d5ex01 {
+public class d5ex {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//d15 test
 		int num1, num2;
 		char op;
 		Scanner scan = new Scanner(System.in);

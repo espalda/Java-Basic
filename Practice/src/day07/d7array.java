@@ -2,7 +2,7 @@ package day07;
 
 import java.util.Scanner;
 
-public class d7arr {
+public class d7array {
 
 		public static void main(String[] args) {
 			//d7 배열 스캐너

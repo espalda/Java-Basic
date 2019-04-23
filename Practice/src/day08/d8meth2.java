@@ -1,6 +1,6 @@
 package day08;
 
-public class d8meth02 {
+public class d8meth2 {
 
 	public static void main(String[] args) {
 		//d8 메서드 산술연산

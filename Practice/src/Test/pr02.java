@@ -14,7 +14,7 @@ public class pr02 {
 			arr[i]= scan.nextInt();
 		}
 		for(int tmp: arr){
-			System.out.println(tmp);
+			System.out.print(tmp);
 		}
 		
 			

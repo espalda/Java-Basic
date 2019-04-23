@@ -2,7 +2,7 @@ package day17;
 
 import java.util.*;
 
-public class d17Bingo {
+public class d17bingo {
 
 	public static void main(String[] args) {
 		//d17 Bingo 11-22 p.633
