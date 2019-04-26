@@ -1,10 +1,8 @@
 package day09;
 
 public class d9Television {
-	/* d9 클래스 Television
-	 * 같은 패키지내에서는 동일한 클래스명을 가진 클래스가 있으면 안된다
-	 * 일반 멤버변수, 객체 멤버변수
-	 */
+	//d9 클래스 Television
+	
 	private int channel;
 	private int volume;
 	private final int MAX_CHANNEL = 500;
@@ -13,8 +11,6 @@ public class d9Television {
 	//클래스 멤버변수
 	public static final String BRAND = "LG";
 	
-	//일반 멤버메서드, 객체 멤버메서드
-	//설계도
 	public void channelUP(){
 		if(channel < MAX_CHANNEL)
 			channel++;
@@ -32,8 +28,8 @@ public class d9Television {
 			channel = ch;
 	}
 	
-	public void volumeUP(){
-		if(volume < MAX_VOLUME)
+	public void volumeUP(){		//하나의 메서드로 만들수 없을까? 볼륨 증가 감소가..
+		if(volume < MAX_VOLUME)	//하나의 메서드에 증가 감소 만들기 +라고 입력하면 증가, -라고 입력하고 감소
 			volume++;
 	}
 	public void volumeDown(){

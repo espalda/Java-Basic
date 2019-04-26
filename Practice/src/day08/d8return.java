@@ -7,8 +7,7 @@ public class d8return {
 		System.out.println(test());
 		System.out.println(test1(-41));
 		}
-		/* 반복문
-		 * 메서드에서 리턴값이 있을 경우 유의사항
+		/* 메서드에서 리턴값이 있을 경우 유의사항
 		 * 조건문을 통해 return 할 경우 조건문이 거짓인 경우 고려
 		 * 반복문 안에서 return 할 경우 반복문 조건이 거짓이 되어 실행되지 않을 경우 고려
 		 */

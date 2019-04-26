@@ -19,7 +19,6 @@ public class d9Point {
 		private int x;
 		private int y;
 	
-
 		//생성자는 무조건 접근제한자가 public이어야함
 		public d9Point(){
 			x=0; y=0;
