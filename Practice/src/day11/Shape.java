@@ -3,8 +3,9 @@ package day11;
 import day10.Point;
 
 public class Shape implements Draw {
-	//d11 클래스 Shape
-	//draw라는 인터페이스를 공유하는 shape 이라는 클래스 생성
+	/* d11 클래스 Shape
+	 * draw라는 인터페이스를 공유하는 shape 이라는 클래스 생성
+	 */
 	private Point center;
 	private double width;
 	private double height;

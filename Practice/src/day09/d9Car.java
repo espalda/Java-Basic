@@ -1,7 +1,17 @@
 package day09;
 
 public class d9Car {
-	//d9 클래스 Car
+	/* d9 클래스 Car
+	 * 1. 멤버변수를 설정 : 필요한 부품, 요소
+	 * 		속도, 시동, 기어, 전방등, 후방등, 와이퍼속도
+	 * 2. 생성자 생성 : 멤버변수 초기화
+	 * 		속도 0, 시동 off, 기어 파킹, 전방등 후방등 off, 와이퍼속도 0
+	 * 3. 멤버메서드 생성 및 구현 : 필요한 기능
+	 * 		시동 켜기, 끄기
+	 * 		엑셀 온, 브레이크 온
+	 * 		전방등 온 오프, 후방등 온 오프
+	 * 		와이퍼 제어
+	 */
 	private int speed;
 	private boolean power;
 	private char gear;
@@ -47,7 +57,8 @@ public class d9Car {
 		this.wiperSpeed = wiperSpeed;
 	}
 	
-	//생성자는 무조건 접근제한자가 public이어야함
+	//기본 생성자
+	//무조건 접근제한자가 public
 	public d9Car(){
 		this.power = false;
 		this.speed = 0;
@@ -115,19 +126,4 @@ public class d9Car {
 		
 		System.out.println("-------------------");
 	}
-	
-	
-	
-	/* 1. 멤버변수를 설정 : 필요한 부품, 요소
-	 * 		속도, 시동, 기어, 전방등, 후방등, 와이퍼속도
-	 * 2. 생성자 생성 : 멤버변수 초기화
-	 * 		속도 0, 시동 off, 기어 파킹, 전방등 후방등 off, 와이퍼속도 0
-	 * 3. 멤버메서드 생성 및 구현 : 필요한 기능
-	 * 		시동 켜기, 끄기
-	 * 		엑셀 온, 브레이크 온
-	 * 		전방등 온 오프, 후방등 온 오프
-	 * 		와이퍼 제어
-	 */
-	
-	
 }

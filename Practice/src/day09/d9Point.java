@@ -19,22 +19,6 @@ public class d9Point {
 		private int x;
 		private int y;
 	
-		//생성자는 무조건 접근제한자가 public이어야함
-		public d9Point(){
-			x=0; y=0;
-			//move(0,0);
-		}
-		public d9Point(int x, int y){
-			this.x = x;
-			this.y = y;
-			//move(x,y);
-		}
-		public d9Point(d9Point p){
-			this(p.x, p.y);
-			//move(p.x, p.y);
-		}
-		
-		
 		//getter setter
 		public int getX() {
 			return x;
@@ -48,6 +32,26 @@ public class d9Point {
 		public void setY(int y) {
 			this.y = y;
 		}
+		
+		//생성자는 무조건 접근제한자가 public이어야함
+		//기본생성자
+		public d9Point(){
+			this(12345,12345);
+			//x=0; y=0;
+			//move(0,0);
+		}
+		public d9Point(int x, int y){
+			this.x = x;
+			this.y = y;
+			//move(x,y);
+		}
+		public d9Point(d9Point p){
+			this(p.x, p.y);
+			//move(p.x, p.y);
+		}
+		
+		
+		
 		
 		//x축값과 y축값이 주어졌을때 멤버변수의값 변경
 		public void move(int x, int y){
