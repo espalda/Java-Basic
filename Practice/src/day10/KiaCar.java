@@ -1,8 +1,8 @@
 package day10;
 
-import day09.d9Car;
+import day09.Car;
 
-public class KiaCar extends d9Car{
+public class KiaCar extends Car{
 	
 	public static void main(String[] args) {
 		/* d10 상속 KiaCar
