@@ -26,6 +26,8 @@ public class d9constructor {
 		 * Car(){
 		 * this("white",'p',4)
 		 */
+		
+		//생성자가 필요한 이유에 대해서 교재 찾아보기
 
 	}
 
