@@ -8,6 +8,9 @@ public class Point_test {
 		p.print();
 		p.move(8, 8);
 		p.print();
+		
+		
+		System.out.println(p);
 	}
 
 }

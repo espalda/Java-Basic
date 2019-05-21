@@ -24,7 +24,7 @@ public class d11trycatch2 {
 		throws Exception //예외선언
 		{
 		double res= 0.0;
-		if(op=='/' && num2==0){
+		if(op == '/' || op == '%' && num2 == 0){
 			//throw new Exception("0으로 나눌 수 없습니다.");
 			//new로 예외 객체를 생성하고 try catch로 예외를 처리한다
 			Exception e = new Exception("0으로 나눌수 없습니다");

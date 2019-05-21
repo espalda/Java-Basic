@@ -26,23 +26,36 @@ public class Point {
 	}
 	
 	//[좌표출력]
-		public void print(){
-			System.out.println("(" + x + ","+ y + ")");
-		}
+	public void print(){
+		System.out.println(x +","+ y);
+	}
 	
 	//[기본생성자]
 	public Point (){
+		this(5,8);
 	}
 	
 	//[복사 생성자]
 	public Point (Point p){
-		move(p.x, p.y);
+		//move(p.x, p.y);
+		//this(p.x, p.y);
+		this.x = p.x;
+		this.y = p.y;
 	}
 	
 	//[생성자 오버로딩]
 	public Point (int x, int y){
-		move(x,y);
+		//move(x,y);
+		this.x = x;
+		this.y = y;
 	}
+	
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
+	}
+	
+	
 	
 	
 }
