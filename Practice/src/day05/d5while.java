@@ -18,15 +18,15 @@ public class d5while {
 		 */
 		
 		int i=1, sum=0;
-		while( i <= 10 ){//조건식 필수, 생략불가
+		while(i <= 10){//조건식 필수, 생략불가
 			sum = sum+i;
-			i++;
+			i+=1;
 		}
 		System.out.println(sum);
 		
 		
 		int t =3;
-		while( t-- > 0){
+		while(t-- > 0){
 			System.out.println(t);
 		}
 	}

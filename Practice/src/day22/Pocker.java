@@ -1,25 +1,62 @@
 package day22;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Pocker {
 	
 	public static void main(String[] args) {
-	// user 와 dealer 를 생성해서 user와 dealer에게 카드 7장씩 나눠주는 코드
-	// 카드팩에서 유저와 딜러에게 카드를 1장씩 반복해서 7번 나눠주고
-	// 유저와 딜러는 그 정보를 가지고 있어야 한다. set();
-		
-		ArrayList<CardPack> user = new ArrayList<>();
-		while (user.size() < 7){
-			
-		}
-		
-		ArrayList<CardPack> dealer = new ArrayList<>();
-		while (user.size() < 7){
-			
-		}
+	ArrayList<Card> user = new ArrayList<Card>();
 	
+	
+	
+	
+	 
+	}
+}
+
+class CardPack{
+	
+	
+}
+
+
+
+
+
+
+class Card{
+	private int num;
+	private String shape;
+	public int getNum() {
+		return num;
+	}
+	public String getShape() {
+		return shape;
+	}
+	public void setNum(int num) {
+		this.num = num;
+	}
+	public void setShape(String shape) {
+		this.shape = shape;
 	}
 	
-
+	@Override
+	public String toString() {
+		String s = new String();
+		if(shape.equals("S")) s += "♠"; //s += ?????
+		else if (shape.equals("D")) s += "◆";
+		else if (shape.equals("C")) s += "♣";
+		else if (shape.equals("H")) s += "♥";
+		
+		if(num == 11) s += "J";
+		else if(num == 12) s += "Q";
+		else if(num == 13) s += "K";
+		else s += num;
+		return s;
+	}
+	public Card(){};
+	public Card(Card c){
+		this.num = c.num;
+		this.shape = c.shape;
+	}
 }
