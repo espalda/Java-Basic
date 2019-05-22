@@ -15,8 +15,11 @@ public class d22review1 {
 		}
 		System.out.println(set);
 		
-		/* for(;;)
-		 int num = scan.nextInt();*/
+		/* for(int i=1; i<=6 ; i++){
+		 * i = scan.nextInt();
+		 * set.add(i);
+		 * } System.out.println(set);
+		 */
 		scan.close();
 		
 		

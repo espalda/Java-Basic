@@ -1,17 +1,23 @@
-package Test;
+package day22;
 
-public class pr04 {
+public class d22review3 {
 
 	public static void main(String[] args) {
 		// 산술연산자를 이용한 계산하는 예제를 메소드를 이용하여 작성
 		// 메서드는 계산만 출력은 메인에서
 		
+		double res;
+		try{
+			res = calc(1,0,'/');
+			System.out.println(res);
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+		}
 		
 	}
 		
-	public static double calc(int num1, int num2, char ch) throws Exception{
-		
-		
+	public static double calc(int num1, int num2, char ch) throws Exception
+		{
 		double res = 0.0;
 		switch(ch){
 		case('+'): res = num1 + num2; break;
