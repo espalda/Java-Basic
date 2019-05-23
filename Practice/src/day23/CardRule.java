@@ -9,11 +9,12 @@ public class CardRule {
 		int pareCnt = 0;	//한쌍의 개수
 		for(int i=0; i<list.size(); i++){
 			int cnt = 0;	//같은 숫자의 개수
-							//2개의 숫자가 같으면 원페어
+			//원페어 : pareCnt = 1,  	cnt = 2 
+			//투페어 : pareCnt = 2,3 	cnt = 2
+			//트리플 : pareCnt = 1,2 	cnt = 3
+			//포커 :  pareCnt = 1    	cnt = 4
 			for(int j=0; j<list.size(); j++){	//리스트에 저장된 i번지의 정보에서 num만 가져와서 비교하겠다.
-				if(list.get(i).getNum() == list.get(j).getNum()){
-					cnt ++;						//
-				}
+				if(list.get(i).getNum() == list.get(j).getNum())	cnt ++;	
 			}
 			if(cnt == count) pareCnt++;
 			
