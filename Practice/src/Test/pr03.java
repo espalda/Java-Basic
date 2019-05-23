@@ -2,7 +2,7 @@ package Test;
 
 import java.util.*;
 
-public class pr10 {
+public class pr03 {
 	
 	public static void main(String[] args) {
 		//

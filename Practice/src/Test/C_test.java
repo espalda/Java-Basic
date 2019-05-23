@@ -1,8 +1,9 @@
 package Test;
 
-import java.util.ArrayList;
+import java.util.*;
+import day23.Card;
 
-public class Card_test {
+public class C_test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
