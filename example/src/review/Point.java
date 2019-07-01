@@ -1,4 +1,4 @@
-package Test1;
+package review;
 
 public class Point {
 
