@@ -2,19 +2,13 @@ Card class 기능 : 카드 1장의 정보를 나타내는 클래스
 CardPack class 기능 : 카드 1팩의 정보를 나타내는 클래스 52장의 1팩
 
 - 기능
-CardPack() : 새로운 카드팩을 생성하고 카드팩 섞음
+cardPack() : 새로운 카드팩을 생성하고 카드팩 섞음
 cardPackSetAll() : 새로운 카드팩을 만드는 메서드
 cardPackSet : 모양이 주어지면 해당 모양의 1번 카드부터 k카드까지 팩에 추가
 show() : 현재 카드팩 내용을 보여주는 메서드
 shuffle() : 카드팩을 섞는 메서드
 give() : 카드팩에서 한장을 꺼내는 메서드
 
-
-// 기본생성자 : 새로운 카드팩을 생성하고 카드팩 섞음
-	public CardPack(){
-		cardPackSetAll();
-		shuffle(); << 추가
-	}
 //user 와 dealer 를 생성해서 user와 dealer에게 카드 7장씩 나눠주는 코드
 
 //카드 나눠주는 규칙
