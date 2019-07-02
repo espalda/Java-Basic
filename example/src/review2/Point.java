@@ -1,12 +1,14 @@
-package review;
+package review2;
 
 public class Point {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//2차원 좌표의 점을 저장하는 Point 클래스를 생성하는 코드
 		Point p = new Point();
-		p.print(2,5);
+		p.print();
 		p.move(8,8);
+		Point p2 = new Point();
+		p2.print();
 	}
 
 	int x;
@@ -24,17 +26,16 @@ public class Point {
 		this.y = y;
 	}
 	
-	public void move(int x, int y){
+	void move(int x, int y){
 		this.x = x;
 		this.y = y;
-	System.out.println("이동 좌표: " +x+","+y);
+		System.out.println("이동 좌표: " +x+","+y);
 	}
 	
-	public void print(int x, int y){
-		this.x = x;
-		this.y = y;
+	public void print(){
 		System.out.println("현재 좌표: "+x+","+y);
 	}
+	
 	//기본 생성자
 	public Point(){	}
 	//복사 생성자
@@ -48,4 +49,9 @@ public class Point {
 		this.y = y;
 		
 	}
+	@Override
+	public String toString() {
+		return "현재 좌표: "+x+","+y;
+	}
+	
 }
