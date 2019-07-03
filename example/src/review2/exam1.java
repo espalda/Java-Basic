@@ -1,6 +1,6 @@
 package review2;
 
-public class review2 {
+public class exam1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -21,8 +21,8 @@ public class review2 {
 }
 
 /*
- * Static 클래스멤버메서드 vs 일반 멤버 메서드
- * Static 클래스멤버변수 vs 일반 멤버 변수
+ * Static 클래스멤버메서드 vs 일반객체 멤버 메서드
+ * Static 클래스멤버변수 vs 일반객체 멤버 변수
  * [Static]
  * 클래스와 객체 모두를 이용하여 호출한다. 객체 생성 없이 만들어진다.
  * 지역변수나 Static 멤버 변수만 사용할수 있다. 일반 멤버 변수는 사용 불가능 하다.

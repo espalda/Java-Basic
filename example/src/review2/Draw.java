@@ -17,5 +17,9 @@ class Rect implements Draw{
 		// TODO Auto-generated method stub
 		
 	}
-	
+	/* [Interface]
+	 * 기능을 명세한 목록
+	 * 일종의 추상클래스
+	 * 추상메서드와 상수만을 멤버로 가질수 있다
+	 */
 }

@@ -14,7 +14,7 @@ public class Point3 {
 	}
 
 }
-class Point3D extends Point{
+class Point3D extends Point1{
 	private int z;
 
 	public int getZ() {
@@ -32,12 +32,12 @@ class Point3D extends Point{
 	//method overriding
 	@Override
 	public void print(){
-		System.out.println("현재 좌표: "+getX()+","+getY()+","+z);
+		System.out.println("3D 현재 좌표: "+getX()+","+getY()+","+z);
 	}
 
 	@Override
 	public String toString() {
-		return "현재 좌표: "+getX()+","+getY()+","+z;
+		return "3D String 현재 좌표: "+getX()+","+getY()+","+z;
 	}
 	public Point3D(){}
 	public Point3D(Point3D p){
