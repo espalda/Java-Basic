@@ -2,7 +2,7 @@ package day18;
 
 import day18.Card.kind;
 
-public class d18enums {
+public class d18enums1 {
 
 	public static void main(String[] args) {
 		/* d18 열거형 enums

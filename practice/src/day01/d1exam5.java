@@ -8,8 +8,7 @@ public class d1exam5 {
 		/* d1 Scanner
 		 * Scanner scan = new Scanner(system.in);
 		 * 자료형 변수명 = scan.next자료형();
-		 * scan.close();
-		 */
+		 * scan.close(); */
 		
 		//콘솔에서 입력받은 숫자가 1보다 크거나 같고 100보다 작거나 같은지 출력
 		Scanner scan = new Scanner(System.in);

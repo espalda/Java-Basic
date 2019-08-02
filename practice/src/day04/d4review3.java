@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class d4review3 {
 
 	public static void main(String[] args) {
-		//d4 복습
-		//두 정수와 산술 연산자를 입력받아 연산 결과를 출력하는 코드
-		//char op = scan.next().charAt(0); 문자열 하나를 입력 받는 scan 코드
+		/* d4 복습
+		 * 두 정수와 산술 연산자를 입력받아 연산 결과를 출력하는 코드
+		 * char op = scan.next().charAt(0); 문자열 하나를 입력 받는 scan 코드
+		 */
+
 		Scanner scan = new Scanner(System.in);
 		int num1 = scan.nextInt();
 		int num2 = scan.nextInt();

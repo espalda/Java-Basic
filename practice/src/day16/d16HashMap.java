@@ -7,6 +7,8 @@ public class d16HashMap {
 
 	public static void main(String[] args) {
 		/* d16 HashMap 11-30
+		 * key : 중복불가 id
+		 * value : 중복가능 password
 		 * hashing을 사용하면 많은 양의 데이터를 검색하는데 뛰어난 성능을 보인다
 		 * map에서 put 메서드는 (key, value)
 		 */

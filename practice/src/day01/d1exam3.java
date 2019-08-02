@@ -9,9 +9,8 @@ public class d1exam3 {
 		 * 논리 : && ~하고, || ~하거나, !아니다 진리표, 조건식
 		 * 대입 : = 을 기준으로 좌측에 변수명 1개만 와야한다
 		 * 증감 : 하나씩 증가 ++, 하나씩 감소--
-		 * 조건 : 연산자 위치에 따라 동작방식이 다르다
-		 * 조건식 : 참 또는 거짓으로 결과가 나오는 식
-		 */
+		 * 조건 : 연산자 위치에 따라 동작방식이 다르다 */
+		
 		System.out.println(1 < 2);
 		System.out.println(1 > 2);
 		System.out.println(1 <= 2);
@@ -19,8 +18,6 @@ public class d1exam3 {
 		System.out.println(1 == 2);
 		System.out.println(1 != 2);
 		
-		//비트논리는 특정 값, 논리는 참 또는 거짓
-		//비트는 연산자 좌,우측에 변수가 나오고 논리는 좌,우에 조건식
 		int num1 = 7;
 		int num2 = 9;
 		System.out.println(num1 & num2);
@@ -29,9 +26,7 @@ public class d1exam3 {
 		 * 증가 : 하나씩 증가 ++
 		 * 감소 : 하나씩 감소 --
 		 * 전위형 : 증감을 하고 동작을 한다 ++num
-		 * 후위형 : 동작을 하고 증감을 한다 num++
-		 * num = num + 1
-		 */
+		 * 후위형 : 동작을 하고 증감을 한다 num++ */
 		
 		int i = 10;
 		System.out.println("후위형 진행 : "+ i++);

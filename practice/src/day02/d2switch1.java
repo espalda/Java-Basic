@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class d2switch1 {
 
 	public static void main(String[] args) {
-		/* d2 switch 달력
+		/* d2 조건문 switch
 		 * 변수 또는 식의 값 중에서 처리하는 값이 제한적일 때
 		 * case값으로 들어갈수 있는 자료형은 정수,문자,문자열
 		 * case의 값은 상수(변하지 않는 고정된 값)만 가능

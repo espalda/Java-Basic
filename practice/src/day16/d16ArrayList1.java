@@ -7,20 +7,22 @@ public class d16ArrayList1 {
 
 	public static void main(String[] args) {
 		/* d16 ArrayList Point
-		 * 컬렉션 프레임 워크 Collection Framework
+		 * 컬렉션 프레임 워크 Collections Framework
 		 * 		데이터 집합을 효율적으로 관리하기 위해 표준화 시킨것
 		 * 종류 : Collection(List, Set)과 map이 있다
 		 * 컬렉션은 하나의 값을 이용
 		 * List : 중복 허용하므로 순서가 있다
-		  		Stack, Vector, ArrayList, LinkedList
+		  		ArrayList, LinkedList, Stack, Vector
 		 * Set : 중복 불가해서 순서 보장하지 않음
 		 * map : key와 value의 두개의 값으로 이루어짐
 		  		 key는 중복불가, value는 중복허용
 		  		 
 		 * ArrayList : List인터페이스를 구현한 클래스(순서가 있고 중복 허용)
 		 * 				배열로 이루어진 리스트, 탐색이 빠르다, 삽입삭제가 중간일때 속도가 느려진다
+		 * 				연속적인 공간에 배열을 생성하여 사용 => 탐색에 효율이 좋음
 		 * ArrayList의 객체를 생성할 때 어떤 데이터(자료형 또는 클래스)를 이용할건지 결정해야한다
 		 * LinkedList : 삽입 삭제가 좋고 탐색 속도가 느려진다
+		 * 							수정이 자주 일어나는 경우 효율이 좋음
 		 */
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		list.add(10); 	//list.add(new Integer(10));

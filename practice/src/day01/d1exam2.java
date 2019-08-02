@@ -3,28 +3,33 @@ package day01;
 public class d1exam2 {
 
 	public static void main(String[] args) {
-		/* d1 변수 variable
-		 * 변수 명명 규칙
-		 * 대소문자가 구분되며 길이에 제한이 없다
-		 * 숫자로 시작해서는 안된다
-		 * 특수문자는 _와 $만을 허용한다
-		 * 예약어를 사용해서는 안된다
-		 * 공백, 중불 사용은 안된다
+		/* d1 자료형 data type
+		 * 변수 : 값을 저장할수 있는 메모리상의 공간, 단 하나의 값만 저장
+		 * 변수의 초기화 : 변수를 사용하기 전에 처음으로 값을 저장하는 것
+		
+		 * 논리형 boolean 1byte
+		 * 문자형 char 2byte
+		 * 정수형 byte(1), short(2), int(4), long(8)
+		 * 실수형 float(4), double(8)
+		 * float 유효숫자는 7자리까지
+		 * double 유효숫자는 15자리까지 */
+	
+		int num = 0;
+		char ch = 'A';
+		long num2 = 123l;
+		float num3 = 1.123f;	//float은 뒤에 f가 필수
+		double num4 = 1.1234d;	//double d는 생략 가능
+		
+		System.out.println(num);
+		System.out.println(ch);
+		System.out.println(num2);
+		System.out.println(num3);
+		System.out.println(num4);
 
-		 * 관례
-		 * 클래스 이름의 첫 글자는 항상 대문자
-		 * 자주쓰는 단어는 약어를 통해서 사용, 해당 변수 이름만 보고 유추할수 있는 이름이 좋다
-		 * 여러단어로 이루어진 변수명의 뒷글자는 대문자로 표기
-		 * 상수의 이름은 모두 대문자로 하고 여러 글자로 이루어진 경우_로 구분한다
-
-		 * 상수 constant : 저장하면 변경할수 없는 값, 값을 한번만 저장할 수 있는 공간
-		 * 앞에 final을 붙이고 항상 초기값이 필요
-		 * 리터럴 literal : 그 자체로 값을 의미하는 것
-		 */
-
-		final int MAX_SIZE = 10;
-		final char PLUS = '+';
-
+		int i = 20;
+		boolean isEven = i % 2 == 0 ? true:false;
+		System.out.println(i + "은 짝수? " + isEven);
+		
 	}
 
 }
