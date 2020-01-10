@@ -13,5 +13,10 @@ public class d21review2 {
 		
 		}
 
+	public static void main2(String[] args) {
+		// TODO Auto-generated method stub
+		
 	}
+	
+}
 

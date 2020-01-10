@@ -88,7 +88,7 @@ public class Student {
 		return true;
 	}
 	
-	/* 기본생성자는 자동으로 생성되지만 다른 생성자를 만들면 기본생성자가 사라져요 
+	/* 기본생성자는 자동으로 생성되지만 다른 생성자를 만들면 기본생성자가 사라짐
 	 * 명시적 초기화에서  String을 초기화 했지만 다른 생성자를 만들꺼고 기본생성자를 이용해서
 	 * 객체를 만들 상황이 있을수도 있기 때문에 기본생성자를 생성했다 
 	 */
@@ -107,7 +107,7 @@ public class Student {
 	
 
 	/* 생성자 오버로딩
-	 * 매개변수 name에 맴버변수 name을 저장해라
+	 * 매개변수 private String name에 멤버변수 String name을 저장해라
 	 */
 	public Student(String name, String Sname, String id, String major, double avr){
 		this.name= name;

@@ -25,8 +25,19 @@ public class d5dowhile {
 			System.out.println("5.종료");
 			System.out.print("메뉴를 선책하세요 : ");
 			menu = scan.nextInt();
-		}while(menu != 5);
-		scan.close();
+		}while(menu != 5); /* 입력된 숫자 menu 가 5가 아니면 위에 코드를 실행하고 5일때 빠져나옴 */
+		System.out.println("===== 메뉴2 시작 =====");
+	
+		int menu2;
+		do {
+			System.out.println("메뉴2");
+			System.out.println("1. 등록");
+			System.out.println("2. 수정");
+			System.out.println("3. 삭제");
+			System.out.println("4. 종료");
+			menu2 = scan.nextInt();
+		}while(menu2 < 4); /* 입력된 숫자가 4보다 작을때 위의 코드를 실행하고 4이상일때 빠져나옴 */
+		System.out.println("----- 메뉴2 종료 -----");
+	scan.close();
 	}
-
 }

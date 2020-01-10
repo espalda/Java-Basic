@@ -31,7 +31,7 @@ public class d5array1 {
 		
 		int i;
 		for(i=0; i<kor.length; i++){//배열 이름.length는 배열의 크기를 알려줌
-			System.out.println(i +"번지 : " + kor[i]);
+			System.out.println(i +"번지 : " + kor[i]);	
 		}
 		/*Scanner scan = new Scanner(System.in);
 		for(i=0 ; i<3 ; i++){
