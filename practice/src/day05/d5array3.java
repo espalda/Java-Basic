@@ -10,18 +10,28 @@ public class d5array3 {
 		 * 각 번지에 1~45사이의 랜덤한 수를 생성하여 저장하는 코드 작성
 		 * int min = 1;
 		 * int max = 3;
-		 * 01 min 에서 max 사이의 정수를 랜덤으로 생성하는 코드
+		 * 01 min 에서 max 사이의 정수를 랜덤으로 생성하는 코드, 중복 되는 숫자 존재함
 		 * int com = (int)(Math.random()*(max-min+1) + min);
 		 */
-		int [] arr = new int [7];
+		
+	/*	int [] arr = new int [7];
 		int min = 1;
 		int max = 45;
 		for(int i=0 ; i<arr.length ; i++){
 				arr[i] = (int)(Math.random()*(max-min+1) + min);
 				System.out.println(arr[i]);
-		}
-		
-		
+		}*/
+		method(7);
 	}
-
+	
+	public static int method(int num) {
+		int [] arr = new int [num];
+		int min = 1;
+		int max = num;
+		for(int i=0; i<arr.length; i++) {
+			arr[i] = (int)(Math.random()*(max-min+1) +min);
+			System.out.print(arr[i] + " ");
+		}
+		return num;
+	}
 }

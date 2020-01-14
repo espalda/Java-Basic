@@ -4,7 +4,7 @@ public class d1exam4 {
 
 	public static void main(String[] args) {
 		/* d1 형변환 casting
-		 * 자동 형변환 : 데이터 손실이 없다
+		 * 묵시적, 자동 형변환 : 데이터 손실이 없다
 		 * 명시적 형변환 : 데이터 손실이 발생할수도 있다 */
 		
 		//10을 3으로 나눈 결과 출력
@@ -36,6 +36,14 @@ public class d1exam4 {
 		char ch2 = (char)(ch + 1);
 		System.out.println(ch2);
 		
+		
+		int x = 50000;
+		long y = x;	//형변환
+		
+		//long type을 int 에다 담으려고 하면 데이터 크기가 다르기 때문에 컴파일러 에러가 발생
+		//큰것을 작은것으로 명시적 강제 형변환
+		long x2 = 5;
+		int y2 = (int) x2;
 	}
 
 }
