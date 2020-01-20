@@ -1,4 +1,4 @@
-package coding;
+package coding1;
 
 public class three {
 	public static void main(String[] args) {
