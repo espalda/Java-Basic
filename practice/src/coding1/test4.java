@@ -1,4 +1,4 @@
-package coding2;
+package coding1;
 
 public class test4 {
 	/*문제 설명
