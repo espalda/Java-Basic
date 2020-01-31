@@ -30,6 +30,7 @@ public class baseball {
 			System.out.println("카드의 개수가 맞지 않습니다.");
 			return ;														
 		}
+		
 		//스트라이크 계산
 		int strike = 0;					//스트라이크 변수 선언 후 초기화
 		for(i=0; i<user.length; i++){	//0번지부터 2번지까지 반복

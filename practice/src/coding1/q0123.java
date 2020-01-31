@@ -36,18 +36,24 @@ public class q0123 {
 		입출력 예 #2
 		모든 부서의 물품을 구매해주면 10원이 됩니다. 따라서 최대 4개 부서의 물품을 구매해 줄 수 있습니다.
 		 */
-		int [] num = {1,3,2,5,4};
-		solution(num,9);
+		int [] num = {2,2,3,3};
+		solution(num, 10);
 		
 	}
+	//지원할수 있는 부서의 갯수를 구하라
 	 public static int solution(int[] d, int budget) {
 	      
 	      int res = 0;
+	      int cnt = 0;
 	      for(int i=0; i<=d.length-1; i++) {
-	    	  if(budget > d[i]) {
-	    		  res= budget-d[i];
+	    	  if(budget >= d[i]) {
+	    		  
+	    		  res=budget-d[i];
+	    		  budget=res;
+	    		  cnt++;
+	    		  
 	    	  }
-	      }System.out.println(res);
+	      }System.out.println(cnt);
 	      return budget;
 	 }
 }
