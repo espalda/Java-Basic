@@ -28,8 +28,7 @@ public class d16HashMap {
 			System.out.println();
 			
 			if(!map.containsKey(id)){	//저장된 id가 없으면 아래처럼 출력
-				System.out.println("입력하신 id는 존재하지 않습니다." + " "
-						+ "다시 입력해주세요");
+				System.out.println("입력하신 id는 존재하지 않습니다." + " " + "다시 입력해주세요.");
 				//continue;
 			}else{	//id가 입력받은 id와 일치하는  value를 입력받은 password 와 비교하여 같이 않으면
 					//입력받은 비밀번호와 id의 비밀번호가 같지않으면
